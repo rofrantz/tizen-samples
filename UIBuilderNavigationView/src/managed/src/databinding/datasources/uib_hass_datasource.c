@@ -16,7 +16,7 @@ static void prepare_datasource() {
 
 	//Begin remote datasource definition
 	ds = (remote_ds_s *)malloc(sizeof(remote_ds_s));
-	char* url = "http://localhost:8123/api/states" ;
+	char* url = "http://localhost:8123/api/states?" ;
 	strcpy(ds->url, url);//curl_easy_escape(ds->curl,url,strlen(url))
 	ds->response_data = (char*)malloc(1*sizeof(char));
 	strcpy(ds->response_data,"");
