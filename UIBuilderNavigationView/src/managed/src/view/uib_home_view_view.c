@@ -46,6 +46,16 @@ void uib_home_view_config_CIRCLE_360x360_portrait() {
 	if(vc->grid1) {
 		elm_grid_clear(vc->grid1, EINA_FALSE);
 		evas_object_size_hint_align_set(vc->grid1, -1.0, -1.0);		evas_object_size_hint_weight_set(vc->grid1, 1.0, 1.0);		elm_grid_size_set(vc->grid1, 1000, 1000);
+		if (!vc->entities) {
+			vc->entities= elm_genlist_add(vc->grid1);
+		}
+		if (!vc->circle_object_entities) {
+			vc->circle_object_entities= eext_circle_object_genlist_add(vc->entities, uib_views_get_instance()->get_window_obj()->circle_surface);
+			eext_rotary_object_event_activated_set(vc->circle_object_entities, EINA_TRUE);
+		}
+		if(vc->entities) {
+			evas_object_size_hint_align_set(vc->entities, -1.0, -1.0);			evas_object_size_hint_weight_set(vc->entities, 1.0, 1.0);			evas_object_show(vc->entities);
+		}
 		if (!vc->btn_next) {
 			vc->btn_next = elm_button_add(vc->grid1);
 		}
@@ -54,30 +64,7 @@ void uib_home_view_config_CIRCLE_360x360_portrait() {
 			elm_object_style_set(vc->btn_next,"bottom");
 			evas_object_show(vc->btn_next);
 		}
-		if (!vc->box1) {
-			vc->box1 = elm_box_add(vc->grid1);
-		}
-		if(vc->box1) {
-			elm_win_alpha_set(vc->box1, EINA_FALSE);
-			elm_box_homogeneous_set(vc->box1, EINA_FALSE);
-			elm_box_horizontal_set(vc->box1, EINA_FALSE);
-			elm_box_padding_set(vc->box1,0,0);
-			evas_object_size_hint_align_set(vc->box1, -1.0, -1.0);
-			evas_object_size_hint_weight_set(vc->box1, 1.0, 1.0);
-			if (!vc->label1) {
-				vc->label1 = elm_label_add(vc->box1);
-			}
-			if(vc->label1) {
-				evas_object_size_hint_align_set(vc->label1, 0.5, 0.5);				evas_object_size_hint_weight_set(vc->label1, 1.0, 1.0);				elm_object_text_set(vc->label1,_UIB_LOCALE("1st View"));
-				elm_label_line_wrap_set(vc->label1, (Elm_Wrap_Type)ELM_WRAP_NONE);
-				elm_label_wrap_width_set(vc->label1,0);
-				elm_label_ellipsis_set(vc->label1, EINA_FALSE);
-				evas_object_show(vc->label1);
-			}
-			elm_box_pack_end(vc->box1, vc->label1);
-			evas_object_show(vc->box1);
-		}
-		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->box1, 8, 626, 1000, 110);		evas_object_show(vc->grid1);
+		elm_grid_pack(vc->grid1, vc->entities, 0, 6, 1000, 994);		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		evas_object_show(vc->grid1);
 	}
 }
 

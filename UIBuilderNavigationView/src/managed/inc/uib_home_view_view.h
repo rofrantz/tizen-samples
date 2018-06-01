@@ -34,12 +34,10 @@ typedef struct _uib_home_view_view_context {
 	/* UI Components in this view */
 	Evas_Object *grid1;
 	Evas_Object *circle_object_grid1;
+	Evas_Object *entities;
+	Evas_Object *circle_object_entities;
 	Evas_Object *btn_next;
 	Evas_Object *circle_object_btn_next;
-	Evas_Object *box1;
-	Evas_Object *circle_object_box1;
-	Evas_Object *label1;
-	Evas_Object *circle_object_label1;
 } uib_home_view_view_context;
 
 
