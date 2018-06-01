@@ -8,11 +8,11 @@
 		<view id="view1" indicator="true" type="view" page_location_x="0" page_location_y="0">
 			<grid align_h="fill" align_v="fill" id="grid1" visible="true"
 				vsize_h="1000" vsize_w="1000" weight_h="1" weight_v="1">
-				<button align_h="fill" align_v="fill" disable="false" id="button1"
+				<button align_h="fill" align_v="fill" disable="false" id="btn_next"
 					pack_h="80" pack_w="800" pack_x="100" pack_y="850" style="bottom"
 					text="Next" data_bind="" visible="true" weight_h="1" weight_v="1">
-					<event connection_wrapper="connection_view1_button1_onclicked"
-						event_name="clicked" function_name="view1_button1_onclicked"
+					<event connection_wrapper="connection_view1_btn_next_onclicked"
+						event_name="clicked" function_name="view1_btn_next_onclicked"
 						signal="clicked" target="view2" />
 				</button>
 				<box align_v="fill" visible="true" weight_v="1" pack_h="435"
@@ -20,7 +20,7 @@
 					pack_w="1000" pack_x="0" pack_y="265" padding_v="0" id="box1"
 					direction="vertical">
 					<label align_h="0.5" wrap_width="0" align_v="0.5" visible="true"
-						weight_v="1" line_wrap="none" id="label1" text="First View"
+						weight_v="1" line_wrap="none" id="label1" text="1st View"
 						data_bind="" weight_h="1" ellipsis="false"></label>
 				</box>
 			</grid>

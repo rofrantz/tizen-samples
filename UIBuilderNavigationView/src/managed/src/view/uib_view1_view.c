@@ -11,7 +11,7 @@
 
 
 /* event handler declarations */
-void connection_view1_button1_onclicked(uib_view1_view_context*, Evas_Object*, void*);
+void connection_view1_btn_next_onclicked(uib_view1_view_context*, Evas_Object*, void*);
 
 uib_view_context* uib_view_view1_create(Evas_Object* parent, void* create_callback_param) {
 	uib_view1_view_context* vc = calloc(1, sizeof(uib_view1_view_context));
@@ -27,7 +27,7 @@ uib_view_context* uib_view_view1_create(Evas_Object* parent, void* create_callba
 	uib_views_get_instance()->set_targeted_view((uib_view_context*)vc);
 
 	//bind event handler
-	evas_object_smart_callback_add(vc->button1, "clicked", (Evas_Smart_Cb)connection_view1_button1_onclicked, vc);
+	evas_object_smart_callback_add(vc->btn_next, "clicked", (Evas_Smart_Cb)connection_view1_btn_next_onclicked, vc);
 
 
 
@@ -46,13 +46,13 @@ void uib_view1_config_CIRCLE_360x360_portrait() {
 	if(vc->grid1) {
 		elm_grid_clear(vc->grid1, EINA_FALSE);
 		evas_object_size_hint_align_set(vc->grid1, -1.0, -1.0);		evas_object_size_hint_weight_set(vc->grid1, 1.0, 1.0);		elm_grid_size_set(vc->grid1, 1000, 1000);
-		if (!vc->button1) {
-			vc->button1 = elm_button_add(vc->grid1);
+		if (!vc->btn_next) {
+			vc->btn_next = elm_button_add(vc->grid1);
 		}
-		if (vc->button1) {
-			evas_object_size_hint_align_set(vc->button1, -1.0, -1.0);			evas_object_size_hint_weight_set(vc->button1, 1.0, 1.0);			elm_object_text_set(vc->button1,_UIB_LOCALE("Next"));
-			elm_object_style_set(vc->button1,"bottom");
-			evas_object_show(vc->button1);
+		if (vc->btn_next) {
+			evas_object_size_hint_align_set(vc->btn_next, -1.0, -1.0);			evas_object_size_hint_weight_set(vc->btn_next, 1.0, 1.0);			elm_object_text_set(vc->btn_next,_UIB_LOCALE("Next"));
+			elm_object_style_set(vc->btn_next,"bottom");
+			evas_object_show(vc->btn_next);
 		}
 		if (!vc->box1) {
 			vc->box1 = elm_box_add(vc->grid1);
@@ -68,7 +68,7 @@ void uib_view1_config_CIRCLE_360x360_portrait() {
 				vc->label1 = elm_label_add(vc->box1);
 			}
 			if(vc->label1) {
-				evas_object_size_hint_align_set(vc->label1, 0.5, 0.5);				evas_object_size_hint_weight_set(vc->label1, 1.0, 1.0);				elm_object_text_set(vc->label1,_UIB_LOCALE("First View"));
+				evas_object_size_hint_align_set(vc->label1, 0.5, 0.5);				evas_object_size_hint_weight_set(vc->label1, 1.0, 1.0);				elm_object_text_set(vc->label1,_UIB_LOCALE("1st View"));
 				elm_label_line_wrap_set(vc->label1, (Elm_Wrap_Type)ELM_WRAP_NONE);
 				elm_label_wrap_width_set(vc->label1,0);
 				elm_label_ellipsis_set(vc->label1, EINA_FALSE);
@@ -77,7 +77,7 @@ void uib_view1_config_CIRCLE_360x360_portrait() {
 			elm_box_pack_end(vc->box1, vc->label1);
 			evas_object_show(vc->box1);
 		}
-		elm_grid_pack(vc->grid1, vc->button1, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->box1, 0, 265, 1000, 435);		evas_object_show(vc->grid1);
+		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->box1, 0, 265, 1000, 435);		evas_object_show(vc->grid1);
 	}
 }
 

@@ -34,8 +34,8 @@ typedef struct _uib_view1_view_context {
 	/* UI Components in this view */
 	Evas_Object *grid1;
 	Evas_Object *circle_object_grid1;
-	Evas_Object *button1;
-	Evas_Object *circle_object_button1;
+	Evas_Object *btn_next;
+	Evas_Object *circle_object_btn_next;
 	Evas_Object *box1;
 	Evas_Object *circle_object_box1;
 	Evas_Object *label1;
@@ -52,6 +52,6 @@ uib_view_context *uib_view_view1_create(Evas_Object *parent, void *create_callba
 uib_view_context *uib_view_view1_destroy(Evas_Object *parent, void *create_callback_param);
 
 void uib_view1_config_CIRCLE_360x360_portrait();
-void view1_button1_onclicked(uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
-void view1_button1_onclicked_post(void* param, uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
+void view1_btn_next_onclicked(uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
+void view1_btn_next_onclicked_post(void* param, uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
 #endif /* UIB_VIEW1_VIEW_H_ */
