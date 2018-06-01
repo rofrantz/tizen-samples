@@ -300,15 +300,7 @@
         <observableObject id="observableObject250" name="TreeRoot" type="Array" value="">
             <observableObject id="observableObject251" name="0" type="IndexObject" value="">
                 <observableObject id="observableObject252" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject253" name="azimuth" type="Number" value="319.87"/>
-                    <observableObject id="observableObject254" name="elevation" type="Number" value="-12.7"/>
                     <observableObject id="observableObject255" name="friendly_name" type="String" value="Sun"/>
-                    <observableObject id="observableObject256" name="next_dawn" type="String" value="2018-06-02T01:58:05+00:00"/>
-                    <observableObject id="observableObject257" name="next_dusk" type="String" value="2018-06-02T18:28:57+00:00"/>
-                    <observableObject id="observableObject258" name="next_midnight" type="String" value="2018-06-01T22:13:36+00:00"/>
-                    <observableObject id="observableObject259" name="next_noon" type="String" value="2018-06-02T10:13:31+00:00"/>
-                    <observableObject id="observableObject260" name="next_rising" type="String" value="2018-06-02T02:33:54+00:00"/>
-                    <observableObject id="observableObject261" name="next_setting" type="String" value="2018-06-02T17:53:07+00:00"/>
                 </observableObject>
                 <observableObject id="observableObject262" name="entity_id" type="String" value="sun.sun"/>
                 <observableObject id="observableObject263" name="last_changed" type="String" value="2018-06-01T17:52:18.343185+00:00"/>
