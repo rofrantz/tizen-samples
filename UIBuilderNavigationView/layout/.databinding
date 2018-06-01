@@ -1,586 +1,594 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dataBinding>
-    <dataSource dataSource="hass" headers="x-ha-access=welcome;" id="dataSource5" jsonData="{&quot;TreeRoot&quot;:[{&quot;attributes&quot;:{&quot;azimuth&quot;:319.87,&quot;elevation&quot;:-12.7,&quot;friendly_name&quot;:&quot;Sun&quot;,&quot;next_dawn&quot;:&quot;2018-06-02T01:58:05+00:00&quot;,&quot;next_dusk&quot;:&quot;2018-06-02T18:28:57+00:00&quot;,&quot;next_midnight&quot;:&quot;2018-06-01T22:13:36+00:00&quot;,&quot;next_noon&quot;:&quot;2018-06-02T10:13:31+00:00&quot;,&quot;next_rising&quot;:&quot;2018-06-02T02:33:54+00:00&quot;,&quot;next_setting&quot;:&quot;2018-06-02T17:53:07+00:00&quot;},&quot;entity_id&quot;:&quot;sun.sun&quot;,&quot;last_changed&quot;:&quot;2018-06-01T17:52:18.343185+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T19:22:30.330253+00:00&quot;,&quot;state&quot;:&quot;below_horizon&quot;},{&quot;attributes&quot;:{&quot;attribution&quot;:&quot;Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.&quot;,&quot;entity_picture&quot;:&quot;https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png&quot;,&quot;friendly_name&quot;:&quot;yr Symbol&quot;},&quot;entity_id&quot;:&quot;sensor.yr_symbol&quot;,&quot;last_changed&quot;:&quot;2018-06-01T16:58:36.792944+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T16:58:36.792944+00:00&quot;,&quot;state&quot;:&quot;2&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;motion&quot;,&quot;friendly_name&quot;:&quot;Movement Backyard&quot;},&quot;entity_id&quot;:&quot;binary_sensor.movement_backyard&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.958117+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.958117+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;moisture&quot;,&quot;friendly_name&quot;:&quot;Basement Floor Wet&quot;},&quot;entity_id&quot;:&quot;binary_sensor.basement_floor_wet&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.959121+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.959121+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;battery_level&quot;:12,&quot;device_class&quot;:&quot;temperature&quot;,&quot;friendly_name&quot;:&quot;Outside Temperature&quot;,&quot;unit_of_measurement&quot;:&quot;°C&quot;},&quot;entity_id&quot;:&quot;sensor.outside_temperature&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.960112+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.960112+00:00&quot;,&quot;state&quot;:&quot;15.6&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;humidity&quot;,&quot;friendly_name&quot;:&quot;Outside Humidity&quot;,&quot;unit_of_measurement&quot;:&quot;%&quot;},&quot;entity_id&quot;:&quot;sensor.outside_humidity&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.961427+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.961427+00:00&quot;,&quot;state&quot;:&quot;54&quot;},{&quot;attributes&quot;:{&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9&quot;,&quot;friendly_name&quot;:&quot;Walkman&quot;,&quot;is_volume_muted&quot;:false,&quot;media_album_name&quot;:&quot;Bounzz&quot;,&quot;media_artist&quot;:&quot;Technohead&quot;,&quot;media_content_id&quot;:&quot;bounzz-1&quot;,&quot;media_content_type&quot;:&quot;music&quot;,&quot;media_duration&quot;:213,&quot;media_title&quot;:&quot;I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)&quot;,&quot;media_track&quot;:1,&quot;shuffle&quot;:false,&quot;supported_features&quot;:57789,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.walkman&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.963925+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.963925+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;YouTube&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034&quot;,&quot;friendly_name&quot;:&quot;Living Room&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;eyU3bRy2x44&quot;,&quot;media_content_type&quot;:&quot;movie&quot;,&quot;media_duration&quot;:300,&quot;media_position&quot;:45.366799,&quot;media_position_updated_at&quot;:&quot;2018-05-28T21:46:16.597980+00:00&quot;,&quot;media_title&quot;:&quot;♥♥ The Best Fireplace Video (3 hours)&quot;,&quot;shuffle&quot;:false,&quot;supported_features&quot;:50061,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.living_room&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.964779+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.964779+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;Netflix&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351&quot;,&quot;friendly_name&quot;:&quot;Lounge room&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;house-of-cards-1&quot;,&quot;media_content_type&quot;:&quot;tvshow&quot;,&quot;media_duration&quot;:3600,&quot;media_episode&quot;:1,&quot;media_season&quot;:1,&quot;media_series_title&quot;:&quot;House of Cards&quot;,&quot;media_title&quot;:&quot;Chapter 1&quot;,&quot;shuffle&quot;:false,&quot;source&quot;:&quot;dvd&quot;,&quot;supported_features&quot;:51633,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.lounge_room&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.966960+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.966960+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;YouTube&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151&quot;,&quot;friendly_name&quot;:&quot;Bedroom&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;kxopViU98Xo&quot;,&quot;media_content_type&quot;:&quot;movie&quot;,&quot;media_duration&quot;:360000,&quot;media_position&quot;:54000.370155,&quot;media_position_updated_at&quot;:&quot;2018-05-28T21:46:16.597980+00:00&quot;,&quot;media_title&quot;:&quot;Epic sax guy 10 hours&quot;,&quot;shuffle&quot;:false,&quot;supported_features&quot;:50061,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.bedroom&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.968135+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.968135+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;friendly_name&quot;:&quot;AC&quot;,&quot;icon&quot;:&quot;mdi:air-conditioner&quot;,&quot;today_energy_kwh&quot;:15},&quot;entity_id&quot;:&quot;switch.ac&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.969132+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.969132+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;assumed_state&quot;:true,&quot;current_power_w&quot;:100,&quot;friendly_name&quot;:&quot;Decorative Lights&quot;,&quot;today_energy_kwh&quot;:15},&quot;entity_id&quot;:&quot;switch.decorative_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;brightness&quot;:180,&quot;color_temp&quot;:380,&quot;friendly_name&quot;:&quot;Ceiling Lights&quot;,&quot;hs_color&quot;:[&quot;56&quot;,&quot;86&quot;],&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;rgb_color&quot;:[&quot;255&quot;,&quot;240&quot;,&quot;35&quot;],&quot;supported_features&quot;:151,&quot;white_value&quot;:200,&quot;xy_color&quot;:[&quot;0.459&quot;,&quot;0.496&quot;]},&quot;entity_id&quot;:&quot;light.ceiling_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;friendly_name&quot;:&quot;Bed Light&quot;,&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;supported_features&quot;:151},&quot;entity_id&quot;:&quot;light.bed_light&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.971133+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.971133+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;brightness&quot;:180,&quot;color_temp&quot;:240,&quot;friendly_name&quot;:&quot;Kitchen Lights&quot;,&quot;hs_color&quot;:[&quot;345&quot;,&quot;75&quot;],&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;rgb_color&quot;:[&quot;255&quot;,&quot;63&quot;,&quot;111&quot;],&quot;supported_features&quot;:151,&quot;white_value&quot;:200,&quot;xy_color&quot;:[&quot;0.59&quot;,&quot;0.274&quot;]},&quot;entity_id&quot;:&quot;light.kitchen_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.972240+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.972240+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;assumed_state&quot;:true,&quot;auto&quot;:true,&quot;entity_id&quot;:[&quot;switch.ac&quot;,&quot;switch.decorative_lights&quot;],&quot;friendly_name&quot;:&quot;all switches&quot;,&quot;hidden&quot;:true,&quot;order&quot;:0},&quot;entity_id&quot;:&quot;group.all_switches&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;auto&quot;:true,&quot;entity_id&quot;:[&quot;light.bed_light&quot;,&quot;light.ceiling_lights&quot;,&quot;light.kitchen_lights&quot;],&quot;friendly_name&quot;:&quot;all lights&quot;,&quot;hidden&quot;:true,&quot;order&quot;:0},&quot;entity_id&quot;:&quot;group.all_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;message&quot;:&quot;Login attempt or request with invalid authentication from 127.0.0.1&quot;,&quot;title&quot;:&quot;Login attempt failed&quot;},&quot;entity_id&quot;:&quot;persistent_notification.httplogin&quot;,&quot;last_changed&quot;:&quot;2018-06-01T16:59:52.837044+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T16:59:52.837044+00:00&quot;,&quot;state&quot;:&quot;notifying&quot;}]}" method="GET" modelType="remote" pollingInterval="5000" proxy="jsonp" query="" remoteCallRequestType="poll" sourceType="json" timeout="5000" url="http://192.168.4.190:8123/api/states">
-        <observableObject id="observableObject1495" name="TreeRoot" type="Array" value="">
-            <observableObject id="observableObject1496" name="0" type="IndexObject" value="">
-                <observableObject id="observableObject1497" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1498" name="azimuth" type="Number" value="319.87"/>
-                    <observableObject id="observableObject1499" name="elevation" type="Number" value="-12.7"/>
-                    <observableObject id="observableObject1500" name="friendly_name" type="String" value="Sun"/>
-                    <observableObject id="observableObject1501" name="next_dawn" type="String" value="2018-06-02T01:58:05+00:00"/>
-                    <observableObject id="observableObject1502" name="next_dusk" type="String" value="2018-06-02T18:28:57+00:00"/>
-                    <observableObject id="observableObject1503" name="next_midnight" type="String" value="2018-06-01T22:13:36+00:00"/>
-                    <observableObject id="observableObject1504" name="next_noon" type="String" value="2018-06-02T10:13:31+00:00"/>
-                    <observableObject id="observableObject1505" name="next_rising" type="String" value="2018-06-02T02:33:54+00:00"/>
-                    <observableObject id="observableObject1506" name="next_setting" type="String" value="2018-06-02T17:53:07+00:00"/>
+    <dataSource dataSource="hass" headers="" id="dataSource6" jsonData="{&quot;TreeRoot&quot;:[{&quot;attributes&quot;:{&quot;azimuth&quot;:319.87,&quot;elevation&quot;:-12.7,&quot;friendly_name&quot;:&quot;Sun&quot;,&quot;next_dawn&quot;:&quot;2018-06-02T01:58:05+00:00&quot;,&quot;next_dusk&quot;:&quot;2018-06-02T18:28:57+00:00&quot;,&quot;next_midnight&quot;:&quot;2018-06-01T22:13:36+00:00&quot;,&quot;next_noon&quot;:&quot;2018-06-02T10:13:31+00:00&quot;,&quot;next_rising&quot;:&quot;2018-06-02T02:33:54+00:00&quot;,&quot;next_setting&quot;:&quot;2018-06-02T17:53:07+00:00&quot;},&quot;entity_id&quot;:&quot;sun.sun&quot;,&quot;last_changed&quot;:&quot;2018-06-01T17:52:18.343185+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T19:22:30.330253+00:00&quot;,&quot;state&quot;:&quot;below_horizon&quot;},{&quot;attributes&quot;:{&quot;attribution&quot;:&quot;Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.&quot;,&quot;entity_picture&quot;:&quot;https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png&quot;,&quot;friendly_name&quot;:&quot;yr Symbol&quot;},&quot;entity_id&quot;:&quot;sensor.yr_symbol&quot;,&quot;last_changed&quot;:&quot;2018-06-01T16:58:36.792944+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T16:58:36.792944+00:00&quot;,&quot;state&quot;:&quot;2&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;motion&quot;,&quot;friendly_name&quot;:&quot;Movement Backyard&quot;},&quot;entity_id&quot;:&quot;binary_sensor.movement_backyard&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.958117+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.958117+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;moisture&quot;,&quot;friendly_name&quot;:&quot;Basement Floor Wet&quot;},&quot;entity_id&quot;:&quot;binary_sensor.basement_floor_wet&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.959121+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.959121+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;battery_level&quot;:12,&quot;device_class&quot;:&quot;temperature&quot;,&quot;friendly_name&quot;:&quot;Outside Temperature&quot;,&quot;unit_of_measurement&quot;:&quot;°C&quot;},&quot;entity_id&quot;:&quot;sensor.outside_temperature&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.960112+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.960112+00:00&quot;,&quot;state&quot;:&quot;15.6&quot;},{&quot;attributes&quot;:{&quot;device_class&quot;:&quot;humidity&quot;,&quot;friendly_name&quot;:&quot;Outside Humidity&quot;,&quot;unit_of_measurement&quot;:&quot;%&quot;},&quot;entity_id&quot;:&quot;sensor.outside_humidity&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.961427+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.961427+00:00&quot;,&quot;state&quot;:&quot;54&quot;},{&quot;attributes&quot;:{&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9&quot;,&quot;friendly_name&quot;:&quot;Walkman&quot;,&quot;is_volume_muted&quot;:false,&quot;media_album_name&quot;:&quot;Bounzz&quot;,&quot;media_artist&quot;:&quot;Technohead&quot;,&quot;media_content_id&quot;:&quot;bounzz-1&quot;,&quot;media_content_type&quot;:&quot;music&quot;,&quot;media_duration&quot;:213,&quot;media_title&quot;:&quot;I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)&quot;,&quot;media_track&quot;:1,&quot;shuffle&quot;:false,&quot;supported_features&quot;:57789,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.walkman&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.963925+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.963925+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;YouTube&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034&quot;,&quot;friendly_name&quot;:&quot;Living Room&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;eyU3bRy2x44&quot;,&quot;media_content_type&quot;:&quot;movie&quot;,&quot;media_duration&quot;:300,&quot;media_position&quot;:45.366799,&quot;media_position_updated_at&quot;:&quot;2018-05-28T21:46:16.597980+00:00&quot;,&quot;media_title&quot;:&quot;♥♥ The Best Fireplace Video (3 hours)&quot;,&quot;shuffle&quot;:false,&quot;supported_features&quot;:50061,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.living_room&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.964779+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.964779+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;Netflix&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351&quot;,&quot;friendly_name&quot;:&quot;Lounge room&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;house-of-cards-1&quot;,&quot;media_content_type&quot;:&quot;tvshow&quot;,&quot;media_duration&quot;:3600,&quot;media_episode&quot;:1,&quot;media_season&quot;:1,&quot;media_series_title&quot;:&quot;House of Cards&quot;,&quot;media_title&quot;:&quot;Chapter 1&quot;,&quot;shuffle&quot;:false,&quot;source&quot;:&quot;dvd&quot;,&quot;supported_features&quot;:51633,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.lounge_room&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.966960+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.966960+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;app_name&quot;:&quot;YouTube&quot;,&quot;entity_picture&quot;:&quot;/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151&quot;,&quot;friendly_name&quot;:&quot;Bedroom&quot;,&quot;is_volume_muted&quot;:false,&quot;media_content_id&quot;:&quot;kxopViU98Xo&quot;,&quot;media_content_type&quot;:&quot;movie&quot;,&quot;media_duration&quot;:360000,&quot;media_position&quot;:54000.370155,&quot;media_position_updated_at&quot;:&quot;2018-05-28T21:46:16.597980+00:00&quot;,&quot;media_title&quot;:&quot;Epic sax guy 10 hours&quot;,&quot;shuffle&quot;:false,&quot;supported_features&quot;:50061,&quot;volume_level&quot;:1.0},&quot;entity_id&quot;:&quot;media_player.bedroom&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.968135+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.968135+00:00&quot;,&quot;state&quot;:&quot;playing&quot;},{&quot;attributes&quot;:{&quot;friendly_name&quot;:&quot;AC&quot;,&quot;icon&quot;:&quot;mdi:air-conditioner&quot;,&quot;today_energy_kwh&quot;:15},&quot;entity_id&quot;:&quot;switch.ac&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.969132+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.969132+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;assumed_state&quot;:true,&quot;current_power_w&quot;:100,&quot;friendly_name&quot;:&quot;Decorative Lights&quot;,&quot;today_energy_kwh&quot;:15},&quot;entity_id&quot;:&quot;switch.decorative_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;brightness&quot;:180,&quot;color_temp&quot;:380,&quot;friendly_name&quot;:&quot;Ceiling Lights&quot;,&quot;hs_color&quot;:[&quot;56&quot;,&quot;86&quot;],&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;rgb_color&quot;:[&quot;255&quot;,&quot;240&quot;,&quot;35&quot;],&quot;supported_features&quot;:151,&quot;white_value&quot;:200,&quot;xy_color&quot;:[&quot;0.459&quot;,&quot;0.496&quot;]},&quot;entity_id&quot;:&quot;light.ceiling_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.970130+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;friendly_name&quot;:&quot;Bed Light&quot;,&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;supported_features&quot;:151},&quot;entity_id&quot;:&quot;light.bed_light&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.971133+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.971133+00:00&quot;,&quot;state&quot;:&quot;off&quot;},{&quot;attributes&quot;:{&quot;brightness&quot;:180,&quot;color_temp&quot;:240,&quot;friendly_name&quot;:&quot;Kitchen Lights&quot;,&quot;hs_color&quot;:[&quot;345&quot;,&quot;75&quot;],&quot;max_mireds&quot;:500,&quot;min_mireds&quot;:153,&quot;rgb_color&quot;:[&quot;255&quot;,&quot;63&quot;,&quot;111&quot;],&quot;supported_features&quot;:151,&quot;white_value&quot;:200,&quot;xy_color&quot;:[&quot;0.59&quot;,&quot;0.274&quot;]},&quot;entity_id&quot;:&quot;light.kitchen_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:16.972240+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:16.972240+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;assumed_state&quot;:true,&quot;auto&quot;:true,&quot;entity_id&quot;:[&quot;switch.ac&quot;,&quot;switch.decorative_lights&quot;],&quot;friendly_name&quot;:&quot;all switches&quot;,&quot;hidden&quot;:true,&quot;order&quot;:0},&quot;entity_id&quot;:&quot;group.all_switches&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;auto&quot;:true,&quot;entity_id&quot;:[&quot;light.bed_light&quot;,&quot;light.ceiling_lights&quot;,&quot;light.kitchen_lights&quot;],&quot;friendly_name&quot;:&quot;all lights&quot;,&quot;hidden&quot;:true,&quot;order&quot;:0},&quot;entity_id&quot;:&quot;group.all_lights&quot;,&quot;last_changed&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;last_updated&quot;:&quot;2018-05-28T21:46:17.011229+00:00&quot;,&quot;state&quot;:&quot;on&quot;},{&quot;attributes&quot;:{&quot;message&quot;:&quot;Login attempt or request with invalid authentication from 127.0.0.1&quot;,&quot;title&quot;:&quot;Login attempt failed&quot;},&quot;entity_id&quot;:&quot;persistent_notification.httplogin&quot;,&quot;last_changed&quot;:&quot;2018-06-01T16:59:52.837044+00:00&quot;,&quot;last_updated&quot;:&quot;2018-06-01T16:59:52.837044+00:00&quot;,&quot;state&quot;:&quot;notifying&quot;}]}" method="GET" modelType="remote" pollingInterval="5000" proxy="jsonp" query="api_password=welcome" remoteCallRequestType="poll" sourceType="json" timeout="5000" url="http://192.168.4.190:8123/api/states">
+        <observableObject id="observableObject1993" name="TreeRoot" type="Array" value="">
+            <observableObject id="observableObject1994" name="0" type="IndexObject" value="">
+                <observableObject id="observableObject1995" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject1996" name="azimuth" type="Number" value="319.87"/>
+                    <observableObject id="observableObject1997" name="elevation" type="Number" value="-12.7"/>
+                    <observableObject id="observableObject1998" name="friendly_name" type="String" value="Sun"/>
+                    <observableObject id="observableObject1999" name="next_dawn" type="String" value="2018-06-02T01:58:05+00:00"/>
+                    <observableObject id="observableObject2000" name="next_dusk" type="String" value="2018-06-02T18:28:57+00:00"/>
+                    <observableObject id="observableObject2001" name="next_midnight" type="String" value="2018-06-01T22:13:36+00:00"/>
+                    <observableObject id="observableObject2002" name="next_noon" type="String" value="2018-06-02T10:13:31+00:00"/>
+                    <observableObject id="observableObject2003" name="next_rising" type="String" value="2018-06-02T02:33:54+00:00"/>
+                    <observableObject id="observableObject2004" name="next_setting" type="String" value="2018-06-02T17:53:07+00:00"/>
                 </observableObject>
-                <observableObject id="observableObject1507" name="entity_id" type="String" value="sun.sun"/>
-                <observableObject id="observableObject1508" name="last_changed" type="String" value="2018-06-01T17:52:18.343185+00:00"/>
-                <observableObject id="observableObject1509" name="last_updated" type="String" value="2018-06-01T19:22:30.330253+00:00"/>
-                <observableObject id="observableObject1510" name="state" type="String" value="below_horizon"/>
+                <observableObject id="observableObject2005" name="entity_id" type="String" value="sun.sun"/>
+                <observableObject id="observableObject2006" name="last_changed" type="String" value="2018-06-01T17:52:18.343185+00:00"/>
+                <observableObject id="observableObject2007" name="last_updated" type="String" value="2018-06-01T19:22:30.330253+00:00"/>
+                <observableObject id="observableObject2008" name="state" type="String" value="below_horizon"/>
             </observableObject>
-            <observableObject id="observableObject1511" name="1" type="IndexObject" value="">
-                <observableObject id="observableObject1512" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1513" name="attribution" type="String" value="Weather forecast from met.no, delivered by the Norwegian Meteorological Institute."/>
-                    <observableObject id="observableObject1514" name="entity_picture" type="String" value="https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png"/>
-                    <observableObject id="observableObject1515" name="friendly_name" type="String" value="yr Symbol"/>
+            <observableObject id="observableObject2009" name="1" type="IndexObject" value="">
+                <observableObject id="observableObject2010" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2011" name="attribution" type="String" value="Weather forecast from met.no, delivered by the Norwegian Meteorological Institute."/>
+                    <observableObject id="observableObject2012" name="entity_picture" type="String" value="https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png"/>
+                    <observableObject id="observableObject2013" name="friendly_name" type="String" value="yr Symbol"/>
                 </observableObject>
-                <observableObject id="observableObject1516" name="entity_id" type="String" value="sensor.yr_symbol"/>
-                <observableObject id="observableObject1517" name="last_changed" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
-                <observableObject id="observableObject1518" name="last_updated" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
-                <observableObject id="observableObject1519" name="state" type="String" value="2"/>
+                <observableObject id="observableObject2014" name="entity_id" type="String" value="sensor.yr_symbol"/>
+                <observableObject id="observableObject2015" name="last_changed" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
+                <observableObject id="observableObject2016" name="last_updated" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
+                <observableObject id="observableObject2017" name="state" type="String" value="2"/>
             </observableObject>
-            <observableObject id="observableObject1520" name="2" type="IndexObject" value="">
-                <observableObject id="observableObject1521" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1522" name="device_class" type="String" value="motion"/>
-                    <observableObject id="observableObject1523" name="friendly_name" type="String" value="Movement Backyard"/>
+            <observableObject id="observableObject2018" name="2" type="IndexObject" value="">
+                <observableObject id="observableObject2019" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2020" name="device_class" type="String" value="motion"/>
+                    <observableObject id="observableObject2021" name="friendly_name" type="String" value="Movement Backyard"/>
                 </observableObject>
-                <observableObject id="observableObject1524" name="entity_id" type="String" value="binary_sensor.movement_backyard"/>
-                <observableObject id="observableObject1525" name="last_changed" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
-                <observableObject id="observableObject1526" name="last_updated" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
-                <observableObject id="observableObject1527" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2022" name="entity_id" type="String" value="binary_sensor.movement_backyard"/>
+                <observableObject id="observableObject2023" name="last_changed" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
+                <observableObject id="observableObject2024" name="last_updated" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
+                <observableObject id="observableObject2025" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1528" name="3" type="IndexObject" value="">
-                <observableObject id="observableObject1529" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1530" name="device_class" type="String" value="moisture"/>
-                    <observableObject id="observableObject1531" name="friendly_name" type="String" value="Basement Floor Wet"/>
+            <observableObject id="observableObject2026" name="3" type="IndexObject" value="">
+                <observableObject id="observableObject2027" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2028" name="device_class" type="String" value="moisture"/>
+                    <observableObject id="observableObject2029" name="friendly_name" type="String" value="Basement Floor Wet"/>
                 </observableObject>
-                <observableObject id="observableObject1532" name="entity_id" type="String" value="binary_sensor.basement_floor_wet"/>
-                <observableObject id="observableObject1533" name="last_changed" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
-                <observableObject id="observableObject1534" name="last_updated" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
-                <observableObject id="observableObject1535" name="state" type="String" value="off"/>
+                <observableObject id="observableObject2030" name="entity_id" type="String" value="binary_sensor.basement_floor_wet"/>
+                <observableObject id="observableObject2031" name="last_changed" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
+                <observableObject id="observableObject2032" name="last_updated" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
+                <observableObject id="observableObject2033" name="state" type="String" value="off"/>
             </observableObject>
-            <observableObject id="observableObject1536" name="4" type="IndexObject" value="">
-                <observableObject id="observableObject1537" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1538" name="battery_level" type="Number" value="12"/>
-                    <observableObject id="observableObject1539" name="device_class" type="String" value="temperature"/>
-                    <observableObject id="observableObject1540" name="friendly_name" type="String" value="Outside Temperature"/>
-                    <observableObject id="observableObject1541" name="unit_of_measurement" type="String" value="°C"/>
+            <observableObject id="observableObject2034" name="4" type="IndexObject" value="">
+                <observableObject id="observableObject2035" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2036" name="battery_level" type="Number" value="12"/>
+                    <observableObject id="observableObject2037" name="device_class" type="String" value="temperature"/>
+                    <observableObject id="observableObject2038" name="friendly_name" type="String" value="Outside Temperature"/>
+                    <observableObject id="observableObject2039" name="unit_of_measurement" type="String" value="°C"/>
                 </observableObject>
-                <observableObject id="observableObject1542" name="entity_id" type="String" value="sensor.outside_temperature"/>
-                <observableObject id="observableObject1543" name="last_changed" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
-                <observableObject id="observableObject1544" name="last_updated" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
-                <observableObject id="observableObject1545" name="state" type="String" value="15.6"/>
+                <observableObject id="observableObject2040" name="entity_id" type="String" value="sensor.outside_temperature"/>
+                <observableObject id="observableObject2041" name="last_changed" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
+                <observableObject id="observableObject2042" name="last_updated" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
+                <observableObject id="observableObject2043" name="state" type="String" value="15.6"/>
             </observableObject>
-            <observableObject id="observableObject1546" name="5" type="IndexObject" value="">
-                <observableObject id="observableObject1547" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1548" name="device_class" type="String" value="humidity"/>
-                    <observableObject id="observableObject1549" name="friendly_name" type="String" value="Outside Humidity"/>
-                    <observableObject id="observableObject1550" name="unit_of_measurement" type="String" value="%"/>
+            <observableObject id="observableObject2044" name="5" type="IndexObject" value="">
+                <observableObject id="observableObject2045" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2046" name="device_class" type="String" value="humidity"/>
+                    <observableObject id="observableObject2047" name="friendly_name" type="String" value="Outside Humidity"/>
+                    <observableObject id="observableObject2048" name="unit_of_measurement" type="String" value="%"/>
                 </observableObject>
-                <observableObject id="observableObject1551" name="entity_id" type="String" value="sensor.outside_humidity"/>
-                <observableObject id="observableObject1552" name="last_changed" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
-                <observableObject id="observableObject1553" name="last_updated" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
-                <observableObject id="observableObject1554" name="state" type="String" value="54"/>
+                <observableObject id="observableObject2049" name="entity_id" type="String" value="sensor.outside_humidity"/>
+                <observableObject id="observableObject2050" name="last_changed" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
+                <observableObject id="observableObject2051" name="last_updated" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
+                <observableObject id="observableObject2052" name="state" type="String" value="54"/>
             </observableObject>
-            <observableObject id="observableObject1555" name="6" type="IndexObject" value="">
-                <observableObject id="observableObject1556" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1557" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9"/>
-                    <observableObject id="observableObject1558" name="friendly_name" type="String" value="Walkman"/>
-                    <observableObject id="observableObject1559" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1560" name="media_album_name" type="String" value="Bounzz"/>
-                    <observableObject id="observableObject1561" name="media_artist" type="String" value="Technohead"/>
-                    <observableObject id="observableObject1562" name="media_content_id" type="String" value="bounzz-1"/>
-                    <observableObject id="observableObject1563" name="media_content_type" type="String" value="music"/>
-                    <observableObject id="observableObject1564" name="media_duration" type="Number" value="213"/>
-                    <observableObject id="observableObject1565" name="media_title" type="String" value="I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)"/>
-                    <observableObject id="observableObject1566" name="media_track" type="Number" value="1"/>
-                    <observableObject id="observableObject1567" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1568" name="supported_features" type="Number" value="57789"/>
-                    <observableObject id="observableObject1569" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2053" name="6" type="IndexObject" value="">
+                <observableObject id="observableObject2054" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2055" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9"/>
+                    <observableObject id="observableObject2056" name="friendly_name" type="String" value="Walkman"/>
+                    <observableObject id="observableObject2057" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2058" name="media_album_name" type="String" value="Bounzz"/>
+                    <observableObject id="observableObject2059" name="media_artist" type="String" value="Technohead"/>
+                    <observableObject id="observableObject2060" name="media_content_id" type="String" value="bounzz-1"/>
+                    <observableObject id="observableObject2061" name="media_content_type" type="String" value="music"/>
+                    <observableObject id="observableObject2062" name="media_duration" type="Number" value="213"/>
+                    <observableObject id="observableObject2063" name="media_title" type="String" value="I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)"/>
+                    <observableObject id="observableObject2064" name="media_track" type="Number" value="1"/>
+                    <observableObject id="observableObject2065" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2066" name="supported_features" type="Number" value="57789"/>
+                    <observableObject id="observableObject2067" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1570" name="entity_id" type="String" value="media_player.walkman"/>
-                <observableObject id="observableObject1571" name="last_changed" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
-                <observableObject id="observableObject1572" name="last_updated" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
-                <observableObject id="observableObject1573" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2068" name="entity_id" type="String" value="media_player.walkman"/>
+                <observableObject id="observableObject2069" name="last_changed" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
+                <observableObject id="observableObject2070" name="last_updated" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
+                <observableObject id="observableObject2071" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1574" name="7" type="IndexObject" value="">
-                <observableObject id="observableObject1575" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1576" name="app_name" type="String" value="YouTube"/>
-                    <observableObject id="observableObject1577" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034"/>
-                    <observableObject id="observableObject1578" name="friendly_name" type="String" value="Living Room"/>
-                    <observableObject id="observableObject1579" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1580" name="media_content_id" type="String" value="eyU3bRy2x44"/>
-                    <observableObject id="observableObject1581" name="media_content_type" type="String" value="movie"/>
-                    <observableObject id="observableObject1582" name="media_duration" type="Number" value="300"/>
-                    <observableObject id="observableObject1583" name="media_position" type="Number" value="45.366799"/>
-                    <observableObject id="observableObject1584" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
-                    <observableObject id="observableObject1585" name="media_title" type="String" value="♥♥ The Best Fireplace Video (3 hours)"/>
-                    <observableObject id="observableObject1586" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1587" name="supported_features" type="Number" value="50061"/>
-                    <observableObject id="observableObject1588" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2072" name="7" type="IndexObject" value="">
+                <observableObject id="observableObject2073" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2074" name="app_name" type="String" value="YouTube"/>
+                    <observableObject id="observableObject2075" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034"/>
+                    <observableObject id="observableObject2076" name="friendly_name" type="String" value="Living Room"/>
+                    <observableObject id="observableObject2077" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2078" name="media_content_id" type="String" value="eyU3bRy2x44"/>
+                    <observableObject id="observableObject2079" name="media_content_type" type="String" value="movie"/>
+                    <observableObject id="observableObject2080" name="media_duration" type="Number" value="300"/>
+                    <observableObject id="observableObject2081" name="media_position" type="Number" value="45.366799"/>
+                    <observableObject id="observableObject2082" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
+                    <observableObject id="observableObject2083" name="media_title" type="String" value="♥♥ The Best Fireplace Video (3 hours)"/>
+                    <observableObject id="observableObject2084" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2085" name="supported_features" type="Number" value="50061"/>
+                    <observableObject id="observableObject2086" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1589" name="entity_id" type="String" value="media_player.living_room"/>
-                <observableObject id="observableObject1590" name="last_changed" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
-                <observableObject id="observableObject1591" name="last_updated" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
-                <observableObject id="observableObject1592" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2087" name="entity_id" type="String" value="media_player.living_room"/>
+                <observableObject id="observableObject2088" name="last_changed" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
+                <observableObject id="observableObject2089" name="last_updated" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
+                <observableObject id="observableObject2090" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1593" name="8" type="IndexObject" value="">
-                <observableObject id="observableObject1594" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1595" name="app_name" type="String" value="Netflix"/>
-                    <observableObject id="observableObject1596" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351"/>
-                    <observableObject id="observableObject1597" name="friendly_name" type="String" value="Lounge room"/>
-                    <observableObject id="observableObject1598" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1599" name="media_content_id" type="String" value="house-of-cards-1"/>
-                    <observableObject id="observableObject1600" name="media_content_type" type="String" value="tvshow"/>
-                    <observableObject id="observableObject1601" name="media_duration" type="Number" value="3600"/>
-                    <observableObject id="observableObject1602" name="media_episode" type="Number" value="1"/>
-                    <observableObject id="observableObject1603" name="media_season" type="Number" value="1"/>
-                    <observableObject id="observableObject1604" name="media_series_title" type="String" value="House of Cards"/>
-                    <observableObject id="observableObject1605" name="media_title" type="String" value="Chapter 1"/>
-                    <observableObject id="observableObject1606" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1607" name="source" type="String" value="dvd"/>
-                    <observableObject id="observableObject1608" name="supported_features" type="Number" value="51633"/>
-                    <observableObject id="observableObject1609" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2091" name="8" type="IndexObject" value="">
+                <observableObject id="observableObject2092" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2093" name="app_name" type="String" value="Netflix"/>
+                    <observableObject id="observableObject2094" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351"/>
+                    <observableObject id="observableObject2095" name="friendly_name" type="String" value="Lounge room"/>
+                    <observableObject id="observableObject2096" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2097" name="media_content_id" type="String" value="house-of-cards-1"/>
+                    <observableObject id="observableObject2098" name="media_content_type" type="String" value="tvshow"/>
+                    <observableObject id="observableObject2099" name="media_duration" type="Number" value="3600"/>
+                    <observableObject id="observableObject2100" name="media_episode" type="Number" value="1"/>
+                    <observableObject id="observableObject2101" name="media_season" type="Number" value="1"/>
+                    <observableObject id="observableObject2102" name="media_series_title" type="String" value="House of Cards"/>
+                    <observableObject id="observableObject2103" name="media_title" type="String" value="Chapter 1"/>
+                    <observableObject id="observableObject2104" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2105" name="source" type="String" value="dvd"/>
+                    <observableObject id="observableObject2106" name="supported_features" type="Number" value="51633"/>
+                    <observableObject id="observableObject2107" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1610" name="entity_id" type="String" value="media_player.lounge_room"/>
-                <observableObject id="observableObject1611" name="last_changed" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
-                <observableObject id="observableObject1612" name="last_updated" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
-                <observableObject id="observableObject1613" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2108" name="entity_id" type="String" value="media_player.lounge_room"/>
+                <observableObject id="observableObject2109" name="last_changed" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
+                <observableObject id="observableObject2110" name="last_updated" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
+                <observableObject id="observableObject2111" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1614" name="9" type="IndexObject" value="">
-                <observableObject id="observableObject1615" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1616" name="app_name" type="String" value="YouTube"/>
-                    <observableObject id="observableObject1617" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151"/>
-                    <observableObject id="observableObject1618" name="friendly_name" type="String" value="Bedroom"/>
-                    <observableObject id="observableObject1619" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1620" name="media_content_id" type="String" value="kxopViU98Xo"/>
-                    <observableObject id="observableObject1621" name="media_content_type" type="String" value="movie"/>
-                    <observableObject id="observableObject1622" name="media_duration" type="Number" value="360000"/>
-                    <observableObject id="observableObject1623" name="media_position" type="Number" value="54000.370155"/>
-                    <observableObject id="observableObject1624" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
-                    <observableObject id="observableObject1625" name="media_title" type="String" value="Epic sax guy 10 hours"/>
-                    <observableObject id="observableObject1626" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1627" name="supported_features" type="Number" value="50061"/>
-                    <observableObject id="observableObject1628" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2112" name="9" type="IndexObject" value="">
+                <observableObject id="observableObject2113" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2114" name="app_name" type="String" value="YouTube"/>
+                    <observableObject id="observableObject2115" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151"/>
+                    <observableObject id="observableObject2116" name="friendly_name" type="String" value="Bedroom"/>
+                    <observableObject id="observableObject2117" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2118" name="media_content_id" type="String" value="kxopViU98Xo"/>
+                    <observableObject id="observableObject2119" name="media_content_type" type="String" value="movie"/>
+                    <observableObject id="observableObject2120" name="media_duration" type="Number" value="360000"/>
+                    <observableObject id="observableObject2121" name="media_position" type="Number" value="54000.370155"/>
+                    <observableObject id="observableObject2122" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
+                    <observableObject id="observableObject2123" name="media_title" type="String" value="Epic sax guy 10 hours"/>
+                    <observableObject id="observableObject2124" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2125" name="supported_features" type="Number" value="50061"/>
+                    <observableObject id="observableObject2126" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1629" name="entity_id" type="String" value="media_player.bedroom"/>
-                <observableObject id="observableObject1630" name="last_changed" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
-                <observableObject id="observableObject1631" name="last_updated" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
-                <observableObject id="observableObject1632" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2127" name="entity_id" type="String" value="media_player.bedroom"/>
+                <observableObject id="observableObject2128" name="last_changed" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
+                <observableObject id="observableObject2129" name="last_updated" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
+                <observableObject id="observableObject2130" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1633" name="10" type="IndexObject" value="">
-                <observableObject id="observableObject1634" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1635" name="friendly_name" type="String" value="AC"/>
-                    <observableObject id="observableObject1636" name="icon" type="String" value="mdi:air-conditioner"/>
-                    <observableObject id="observableObject1637" name="today_energy_kwh" type="Number" value="15"/>
+            <observableObject id="observableObject2131" name="10" type="IndexObject" value="">
+                <observableObject id="observableObject2132" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2133" name="friendly_name" type="String" value="AC"/>
+                    <observableObject id="observableObject2134" name="icon" type="String" value="mdi:air-conditioner"/>
+                    <observableObject id="observableObject2135" name="today_energy_kwh" type="Number" value="15"/>
                 </observableObject>
-                <observableObject id="observableObject1638" name="entity_id" type="String" value="switch.ac"/>
-                <observableObject id="observableObject1639" name="last_changed" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
-                <observableObject id="observableObject1640" name="last_updated" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
-                <observableObject id="observableObject1641" name="state" type="String" value="off"/>
+                <observableObject id="observableObject2136" name="entity_id" type="String" value="switch.ac"/>
+                <observableObject id="observableObject2137" name="last_changed" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
+                <observableObject id="observableObject2138" name="last_updated" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
+                <observableObject id="observableObject2139" name="state" type="String" value="off"/>
             </observableObject>
-            <observableObject id="observableObject1642" name="11" type="IndexObject" value="">
-                <observableObject id="observableObject1643" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1644" name="assumed_state" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1645" name="current_power_w" type="Number" value="100"/>
-                    <observableObject id="observableObject1646" name="friendly_name" type="String" value="Decorative Lights"/>
-                    <observableObject id="observableObject1647" name="today_energy_kwh" type="Number" value="15"/>
+            <observableObject id="observableObject2140" name="11" type="IndexObject" value="">
+                <observableObject id="observableObject2141" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2142" name="assumed_state" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2143" name="current_power_w" type="Number" value="100"/>
+                    <observableObject id="observableObject2144" name="friendly_name" type="String" value="Decorative Lights"/>
+                    <observableObject id="observableObject2145" name="today_energy_kwh" type="Number" value="15"/>
                 </observableObject>
-                <observableObject id="observableObject1648" name="entity_id" type="String" value="switch.decorative_lights"/>
-                <observableObject id="observableObject1649" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1650" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1651" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2146" name="entity_id" type="String" value="switch.decorative_lights"/>
+                <observableObject id="observableObject2147" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2148" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2149" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1652" name="12" type="IndexObject" value="">
-                <observableObject id="observableObject1653" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1654" name="brightness" type="Number" value="180"/>
-                    <observableObject id="observableObject1655" name="color_temp" type="Number" value="380"/>
-                    <observableObject id="observableObject1656" name="friendly_name" type="String" value="Ceiling Lights"/>
-                    <observableObject id="observableObject1657" name="hs_color" type="Array" value="">
-                        <observableObject id="observableObject1658" name="0" type="Index" value="56"/>
-                        <observableObject id="observableObject1659" name="1" type="Index" value="86"/>
+            <observableObject id="observableObject2150" name="12" type="IndexObject" value="">
+                <observableObject id="observableObject2151" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2152" name="brightness" type="Number" value="180"/>
+                    <observableObject id="observableObject2153" name="color_temp" type="Number" value="380"/>
+                    <observableObject id="observableObject2154" name="friendly_name" type="String" value="Ceiling Lights"/>
+                    <observableObject id="observableObject2155" name="hs_color" type="Array" value="">
+                        <observableObject id="observableObject2156" name="0" type="Index" value="56"/>
+                        <observableObject id="observableObject2157" name="1" type="Index" value="86"/>
                     </observableObject>
-                    <observableObject id="observableObject1660" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1661" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1662" name="rgb_color" type="Array" value="">
-                        <observableObject id="observableObject1663" name="0" type="Index" value="255"/>
-                        <observableObject id="observableObject1664" name="1" type="Index" value="240"/>
-                        <observableObject id="observableObject1665" name="2" type="Index" value="35"/>
+                    <observableObject id="observableObject2158" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2159" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2160" name="rgb_color" type="Array" value="">
+                        <observableObject id="observableObject2161" name="0" type="Index" value="255"/>
+                        <observableObject id="observableObject2162" name="1" type="Index" value="240"/>
+                        <observableObject id="observableObject2163" name="2" type="Index" value="35"/>
                     </observableObject>
-                    <observableObject id="observableObject1666" name="supported_features" type="Number" value="151"/>
-                    <observableObject id="observableObject1667" name="white_value" type="Number" value="200"/>
-                    <observableObject id="observableObject1668" name="xy_color" type="Array" value="">
-                        <observableObject id="observableObject1669" name="0" type="Index" value="0.459"/>
-                        <observableObject id="observableObject1670" name="1" type="Index" value="0.496"/>
-                    </observableObject>
-                </observableObject>
-                <observableObject id="observableObject1671" name="entity_id" type="String" value="light.ceiling_lights"/>
-                <observableObject id="observableObject1672" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1673" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1674" name="state" type="String" value="on"/>
-            </observableObject>
-            <observableObject id="observableObject1675" name="13" type="IndexObject" value="">
-                <observableObject id="observableObject1676" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1677" name="friendly_name" type="String" value="Bed Light"/>
-                    <observableObject id="observableObject1678" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1679" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1680" name="supported_features" type="Number" value="151"/>
-                </observableObject>
-                <observableObject id="observableObject1681" name="entity_id" type="String" value="light.bed_light"/>
-                <observableObject id="observableObject1682" name="last_changed" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
-                <observableObject id="observableObject1683" name="last_updated" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
-                <observableObject id="observableObject1684" name="state" type="String" value="off"/>
-            </observableObject>
-            <observableObject id="observableObject1685" name="14" type="IndexObject" value="">
-                <observableObject id="observableObject1686" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1687" name="brightness" type="Number" value="180"/>
-                    <observableObject id="observableObject1688" name="color_temp" type="Number" value="240"/>
-                    <observableObject id="observableObject1689" name="friendly_name" type="String" value="Kitchen Lights"/>
-                    <observableObject id="observableObject1690" name="hs_color" type="Array" value="">
-                        <observableObject id="observableObject1691" name="0" type="Index" value="345"/>
-                        <observableObject id="observableObject1692" name="1" type="Index" value="75"/>
-                    </observableObject>
-                    <observableObject id="observableObject1693" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1694" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1695" name="rgb_color" type="Array" value="">
-                        <observableObject id="observableObject1696" name="0" type="Index" value="255"/>
-                        <observableObject id="observableObject1697" name="1" type="Index" value="63"/>
-                        <observableObject id="observableObject1698" name="2" type="Index" value="111"/>
-                    </observableObject>
-                    <observableObject id="observableObject1699" name="supported_features" type="Number" value="151"/>
-                    <observableObject id="observableObject1700" name="white_value" type="Number" value="200"/>
-                    <observableObject id="observableObject1701" name="xy_color" type="Array" value="">
-                        <observableObject id="observableObject1702" name="0" type="Index" value="0.59"/>
-                        <observableObject id="observableObject1703" name="1" type="Index" value="0.274"/>
+                    <observableObject id="observableObject2164" name="supported_features" type="Number" value="151"/>
+                    <observableObject id="observableObject2165" name="white_value" type="Number" value="200"/>
+                    <observableObject id="observableObject2166" name="xy_color" type="Array" value="">
+                        <observableObject id="observableObject2167" name="0" type="Index" value="0.459"/>
+                        <observableObject id="observableObject2168" name="1" type="Index" value="0.496"/>
                     </observableObject>
                 </observableObject>
-                <observableObject id="observableObject1704" name="entity_id" type="String" value="light.kitchen_lights"/>
-                <observableObject id="observableObject1705" name="last_changed" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
-                <observableObject id="observableObject1706" name="last_updated" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
-                <observableObject id="observableObject1707" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2169" name="entity_id" type="String" value="light.ceiling_lights"/>
+                <observableObject id="observableObject2170" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2171" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2172" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1708" name="15" type="IndexObject" value="">
-                <observableObject id="observableObject1709" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1710" name="assumed_state" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1711" name="auto" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1712" name="entity_id" type="Array" value="">
-                        <observableObject id="observableObject1713" name="0" type="Index" value="switch.ac"/>
-                        <observableObject id="observableObject1714" name="1" type="Index" value="switch.decorative_lights"/>
+            <observableObject id="observableObject2173" name="13" type="IndexObject" value="">
+                <observableObject id="observableObject2174" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2175" name="friendly_name" type="String" value="Bed Light"/>
+                    <observableObject id="observableObject2176" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2177" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2178" name="supported_features" type="Number" value="151"/>
+                </observableObject>
+                <observableObject id="observableObject2179" name="entity_id" type="String" value="light.bed_light"/>
+                <observableObject id="observableObject2180" name="last_changed" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
+                <observableObject id="observableObject2181" name="last_updated" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
+                <observableObject id="observableObject2182" name="state" type="String" value="off"/>
+            </observableObject>
+            <observableObject id="observableObject2183" name="14" type="IndexObject" value="">
+                <observableObject id="observableObject2184" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2185" name="brightness" type="Number" value="180"/>
+                    <observableObject id="observableObject2186" name="color_temp" type="Number" value="240"/>
+                    <observableObject id="observableObject2187" name="friendly_name" type="String" value="Kitchen Lights"/>
+                    <observableObject id="observableObject2188" name="hs_color" type="Array" value="">
+                        <observableObject id="observableObject2189" name="0" type="Index" value="345"/>
+                        <observableObject id="observableObject2190" name="1" type="Index" value="75"/>
                     </observableObject>
-                    <observableObject id="observableObject1715" name="friendly_name" type="String" value="all switches"/>
-                    <observableObject id="observableObject1716" name="hidden" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1717" name="order" type="Number" value="0"/>
-                </observableObject>
-                <observableObject id="observableObject1718" name="entity_id" type="String" value="group.all_switches"/>
-                <observableObject id="observableObject1719" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1720" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1721" name="state" type="String" value="on"/>
-            </observableObject>
-            <observableObject id="observableObject1722" name="16" type="IndexObject" value="">
-                <observableObject id="observableObject1723" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1724" name="auto" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1725" name="entity_id" type="Array" value="">
-                        <observableObject id="observableObject1726" name="0" type="Index" value="light.bed_light"/>
-                        <observableObject id="observableObject1727" name="1" type="Index" value="light.ceiling_lights"/>
-                        <observableObject id="observableObject1728" name="2" type="Index" value="light.kitchen_lights"/>
+                    <observableObject id="observableObject2191" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2192" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2193" name="rgb_color" type="Array" value="">
+                        <observableObject id="observableObject2194" name="0" type="Index" value="255"/>
+                        <observableObject id="observableObject2195" name="1" type="Index" value="63"/>
+                        <observableObject id="observableObject2196" name="2" type="Index" value="111"/>
                     </observableObject>
-                    <observableObject id="observableObject1729" name="friendly_name" type="String" value="all lights"/>
-                    <observableObject id="observableObject1730" name="hidden" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1731" name="order" type="Number" value="0"/>
+                    <observableObject id="observableObject2197" name="supported_features" type="Number" value="151"/>
+                    <observableObject id="observableObject2198" name="white_value" type="Number" value="200"/>
+                    <observableObject id="observableObject2199" name="xy_color" type="Array" value="">
+                        <observableObject id="observableObject2200" name="0" type="Index" value="0.59"/>
+                        <observableObject id="observableObject2201" name="1" type="Index" value="0.274"/>
+                    </observableObject>
                 </observableObject>
-                <observableObject id="observableObject1732" name="entity_id" type="String" value="group.all_lights"/>
-                <observableObject id="observableObject1733" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1734" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1735" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2202" name="entity_id" type="String" value="light.kitchen_lights"/>
+                <observableObject id="observableObject2203" name="last_changed" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
+                <observableObject id="observableObject2204" name="last_updated" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
+                <observableObject id="observableObject2205" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1736" name="17" type="IndexObject" value="">
-                <observableObject id="observableObject1737" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1738" name="message" type="String" value="Login attempt or request with invalid authentication from 127.0.0.1"/>
-                    <observableObject id="observableObject1739" name="title" type="String" value="Login attempt failed"/>
+            <observableObject id="observableObject2206" name="15" type="IndexObject" value="">
+                <observableObject id="observableObject2207" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2208" name="assumed_state" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2209" name="auto" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2210" name="entity_id" type="Array" value="">
+                        <observableObject id="observableObject2211" name="0" type="Index" value="switch.ac"/>
+                        <observableObject id="observableObject2212" name="1" type="Index" value="switch.decorative_lights"/>
+                    </observableObject>
+                    <observableObject id="observableObject2213" name="friendly_name" type="String" value="all switches"/>
+                    <observableObject id="observableObject2214" name="hidden" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2215" name="order" type="Number" value="0"/>
                 </observableObject>
-                <observableObject id="observableObject1740" name="entity_id" type="String" value="persistent_notification.httplogin"/>
-                <observableObject id="observableObject1741" name="last_changed" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
-                <observableObject id="observableObject1742" name="last_updated" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
-                <observableObject id="observableObject1743" name="state" type="String" value="notifying"/>
+                <observableObject id="observableObject2216" name="entity_id" type="String" value="group.all_switches"/>
+                <observableObject id="observableObject2217" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2218" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2219" name="state" type="String" value="on"/>
+            </observableObject>
+            <observableObject id="observableObject2220" name="16" type="IndexObject" value="">
+                <observableObject id="observableObject2221" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2222" name="auto" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2223" name="entity_id" type="Array" value="">
+                        <observableObject id="observableObject2224" name="0" type="Index" value="light.bed_light"/>
+                        <observableObject id="observableObject2225" name="1" type="Index" value="light.ceiling_lights"/>
+                        <observableObject id="observableObject2226" name="2" type="Index" value="light.kitchen_lights"/>
+                    </observableObject>
+                    <observableObject id="observableObject2227" name="friendly_name" type="String" value="all lights"/>
+                    <observableObject id="observableObject2228" name="hidden" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2229" name="order" type="Number" value="0"/>
+                </observableObject>
+                <observableObject id="observableObject2230" name="entity_id" type="String" value="group.all_lights"/>
+                <observableObject id="observableObject2231" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2232" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2233" name="state" type="String" value="on"/>
+            </observableObject>
+            <observableObject id="observableObject2234" name="17" type="IndexObject" value="">
+                <observableObject id="observableObject2235" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2236" name="message" type="String" value="Login attempt or request with invalid authentication from 127.0.0.1"/>
+                    <observableObject id="observableObject2237" name="title" type="String" value="Login attempt failed"/>
+                </observableObject>
+                <observableObject id="observableObject2238" name="entity_id" type="String" value="persistent_notification.httplogin"/>
+                <observableObject id="observableObject2239" name="last_changed" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
+                <observableObject id="observableObject2240" name="last_updated" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
+                <observableObject id="observableObject2241" name="state" type="String" value="notifying"/>
             </observableObject>
         </observableObject>
     </dataSource>
-    <dataModel dataSource="hass" id="dataModel5" modelName="hass_entity" modelType="remote">
-        <observableObject id="observableObject1744" name="TreeRoot" type="Array" value="">
-            <observableObject id="observableObject1745" name="0" type="IndexObject" value="">
-                <observableObject id="observableObject1746" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1749" name="friendly_name" type="String" value="Sun"/>
+    <dataModel dataSource="hass" id="dataModel6" modelName="hass_entity" modelType="remote">
+        <observableObject id="observableObject2242" name="TreeRoot" type="Array" value="">
+            <observableObject id="observableObject2243" name="0" type="IndexObject" value="">
+                <observableObject id="observableObject2244" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2245" name="azimuth" type="Number" value="319.87"/>
+                    <observableObject id="observableObject2246" name="elevation" type="Number" value="-12.7"/>
+                    <observableObject id="observableObject2247" name="friendly_name" type="String" value="Sun"/>
+                    <observableObject id="observableObject2248" name="next_dawn" type="String" value="2018-06-02T01:58:05+00:00"/>
+                    <observableObject id="observableObject2249" name="next_dusk" type="String" value="2018-06-02T18:28:57+00:00"/>
+                    <observableObject id="observableObject2250" name="next_midnight" type="String" value="2018-06-01T22:13:36+00:00"/>
+                    <observableObject id="observableObject2251" name="next_noon" type="String" value="2018-06-02T10:13:31+00:00"/>
+                    <observableObject id="observableObject2252" name="next_rising" type="String" value="2018-06-02T02:33:54+00:00"/>
+                    <observableObject id="observableObject2253" name="next_setting" type="String" value="2018-06-02T17:53:07+00:00"/>
                 </observableObject>
-                <observableObject id="observableObject1756" name="entity_id" type="String" value="sun.sun"/>
-                <observableObject id="observableObject1757" name="last_changed" type="String" value="2018-06-01T17:52:18.343185+00:00"/>
-                <observableObject id="observableObject1758" name="last_updated" type="String" value="2018-06-01T19:22:30.330253+00:00"/>
-                <observableObject id="observableObject1759" name="state" type="String" value="below_horizon"/>
+                <observableObject id="observableObject2254" name="entity_id" type="String" value="sun.sun"/>
+                <observableObject id="observableObject2255" name="last_changed" type="String" value="2018-06-01T17:52:18.343185+00:00"/>
+                <observableObject id="observableObject2256" name="last_updated" type="String" value="2018-06-01T19:22:30.330253+00:00"/>
+                <observableObject id="observableObject2257" name="state" type="String" value="below_horizon"/>
             </observableObject>
-            <observableObject id="observableObject1760" name="1" type="IndexObject" value="">
-                <observableObject id="observableObject1761" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1762" name="attribution" type="String" value="Weather forecast from met.no, delivered by the Norwegian Meteorological Institute."/>
-                    <observableObject id="observableObject1763" name="entity_picture" type="String" value="https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png"/>
-                    <observableObject id="observableObject1764" name="friendly_name" type="String" value="yr Symbol"/>
+            <observableObject id="observableObject2258" name="1" type="IndexObject" value="">
+                <observableObject id="observableObject2259" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2260" name="attribution" type="String" value="Weather forecast from met.no, delivered by the Norwegian Meteorological Institute."/>
+                    <observableObject id="observableObject2261" name="entity_picture" type="String" value="https://api.met.no/weatherapi/weathericon/1.1/?symbol=2;content_type=image/png"/>
+                    <observableObject id="observableObject2262" name="friendly_name" type="String" value="yr Symbol"/>
                 </observableObject>
-                <observableObject id="observableObject1765" name="entity_id" type="String" value="sensor.yr_symbol"/>
-                <observableObject id="observableObject1766" name="last_changed" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
-                <observableObject id="observableObject1767" name="last_updated" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
-                <observableObject id="observableObject1768" name="state" type="String" value="2"/>
+                <observableObject id="observableObject2263" name="entity_id" type="String" value="sensor.yr_symbol"/>
+                <observableObject id="observableObject2264" name="last_changed" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
+                <observableObject id="observableObject2265" name="last_updated" type="String" value="2018-06-01T16:58:36.792944+00:00"/>
+                <observableObject id="observableObject2266" name="state" type="String" value="2"/>
             </observableObject>
-            <observableObject id="observableObject1769" name="2" type="IndexObject" value="">
-                <observableObject id="observableObject1770" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1771" name="device_class" type="String" value="motion"/>
-                    <observableObject id="observableObject1772" name="friendly_name" type="String" value="Movement Backyard"/>
+            <observableObject id="observableObject2267" name="2" type="IndexObject" value="">
+                <observableObject id="observableObject2268" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2269" name="device_class" type="String" value="motion"/>
+                    <observableObject id="observableObject2270" name="friendly_name" type="String" value="Movement Backyard"/>
                 </observableObject>
-                <observableObject id="observableObject1773" name="entity_id" type="String" value="binary_sensor.movement_backyard"/>
-                <observableObject id="observableObject1774" name="last_changed" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
-                <observableObject id="observableObject1775" name="last_updated" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
-                <observableObject id="observableObject1776" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2271" name="entity_id" type="String" value="binary_sensor.movement_backyard"/>
+                <observableObject id="observableObject2272" name="last_changed" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
+                <observableObject id="observableObject2273" name="last_updated" type="String" value="2018-05-28T21:46:16.958117+00:00"/>
+                <observableObject id="observableObject2274" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1777" name="3" type="IndexObject" value="">
-                <observableObject id="observableObject1778" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1779" name="device_class" type="String" value="moisture"/>
-                    <observableObject id="observableObject1780" name="friendly_name" type="String" value="Basement Floor Wet"/>
+            <observableObject id="observableObject2275" name="3" type="IndexObject" value="">
+                <observableObject id="observableObject2276" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2277" name="device_class" type="String" value="moisture"/>
+                    <observableObject id="observableObject2278" name="friendly_name" type="String" value="Basement Floor Wet"/>
                 </observableObject>
-                <observableObject id="observableObject1781" name="entity_id" type="String" value="binary_sensor.basement_floor_wet"/>
-                <observableObject id="observableObject1782" name="last_changed" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
-                <observableObject id="observableObject1783" name="last_updated" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
-                <observableObject id="observableObject1784" name="state" type="String" value="off"/>
+                <observableObject id="observableObject2279" name="entity_id" type="String" value="binary_sensor.basement_floor_wet"/>
+                <observableObject id="observableObject2280" name="last_changed" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
+                <observableObject id="observableObject2281" name="last_updated" type="String" value="2018-05-28T21:46:16.959121+00:00"/>
+                <observableObject id="observableObject2282" name="state" type="String" value="off"/>
             </observableObject>
-            <observableObject id="observableObject1785" name="4" type="IndexObject" value="">
-                <observableObject id="observableObject1786" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1787" name="battery_level" type="Number" value="12"/>
-                    <observableObject id="observableObject1788" name="device_class" type="String" value="temperature"/>
-                    <observableObject id="observableObject1789" name="friendly_name" type="String" value="Outside Temperature"/>
-                    <observableObject id="observableObject1790" name="unit_of_measurement" type="String" value="°C"/>
+            <observableObject id="observableObject2283" name="4" type="IndexObject" value="">
+                <observableObject id="observableObject2284" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2285" name="battery_level" type="Number" value="12"/>
+                    <observableObject id="observableObject2286" name="device_class" type="String" value="temperature"/>
+                    <observableObject id="observableObject2287" name="friendly_name" type="String" value="Outside Temperature"/>
+                    <observableObject id="observableObject2288" name="unit_of_measurement" type="String" value="°C"/>
                 </observableObject>
-                <observableObject id="observableObject1791" name="entity_id" type="String" value="sensor.outside_temperature"/>
-                <observableObject id="observableObject1792" name="last_changed" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
-                <observableObject id="observableObject1793" name="last_updated" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
-                <observableObject id="observableObject1794" name="state" type="String" value="15.6"/>
+                <observableObject id="observableObject2289" name="entity_id" type="String" value="sensor.outside_temperature"/>
+                <observableObject id="observableObject2290" name="last_changed" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
+                <observableObject id="observableObject2291" name="last_updated" type="String" value="2018-05-28T21:46:16.960112+00:00"/>
+                <observableObject id="observableObject2292" name="state" type="String" value="15.6"/>
             </observableObject>
-            <observableObject id="observableObject1795" name="5" type="IndexObject" value="">
-                <observableObject id="observableObject1796" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1797" name="device_class" type="String" value="humidity"/>
-                    <observableObject id="observableObject1798" name="friendly_name" type="String" value="Outside Humidity"/>
-                    <observableObject id="observableObject1799" name="unit_of_measurement" type="String" value="%"/>
+            <observableObject id="observableObject2293" name="5" type="IndexObject" value="">
+                <observableObject id="observableObject2294" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2295" name="device_class" type="String" value="humidity"/>
+                    <observableObject id="observableObject2296" name="friendly_name" type="String" value="Outside Humidity"/>
+                    <observableObject id="observableObject2297" name="unit_of_measurement" type="String" value="%"/>
                 </observableObject>
-                <observableObject id="observableObject1800" name="entity_id" type="String" value="sensor.outside_humidity"/>
-                <observableObject id="observableObject1801" name="last_changed" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
-                <observableObject id="observableObject1802" name="last_updated" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
-                <observableObject id="observableObject1803" name="state" type="String" value="54"/>
+                <observableObject id="observableObject2298" name="entity_id" type="String" value="sensor.outside_humidity"/>
+                <observableObject id="observableObject2299" name="last_changed" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
+                <observableObject id="observableObject2300" name="last_updated" type="String" value="2018-05-28T21:46:16.961427+00:00"/>
+                <observableObject id="observableObject2301" name="state" type="String" value="54"/>
             </observableObject>
-            <observableObject id="observableObject1804" name="6" type="IndexObject" value="">
-                <observableObject id="observableObject1805" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1806" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9"/>
-                    <observableObject id="observableObject1807" name="friendly_name" type="String" value="Walkman"/>
-                    <observableObject id="observableObject1808" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1809" name="media_album_name" type="String" value="Bounzz"/>
-                    <observableObject id="observableObject1810" name="media_artist" type="String" value="Technohead"/>
-                    <observableObject id="observableObject1811" name="media_content_id" type="String" value="bounzz-1"/>
-                    <observableObject id="observableObject1812" name="media_content_type" type="String" value="music"/>
-                    <observableObject id="observableObject1813" name="media_duration" type="Number" value="213"/>
-                    <observableObject id="observableObject1814" name="media_title" type="String" value="I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)"/>
-                    <observableObject id="observableObject1815" name="media_track" type="Number" value="1"/>
-                    <observableObject id="observableObject1816" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1817" name="supported_features" type="Number" value="57789"/>
-                    <observableObject id="observableObject1818" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2302" name="6" type="IndexObject" value="">
+                <observableObject id="observableObject2303" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2304" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.walkman?token=3f0c261e7643b914264a89d24ae7556d062c80b2f5ac0bd186a95a53c470862d&amp;cache=62c0c516acbc53a9"/>
+                    <observableObject id="observableObject2305" name="friendly_name" type="String" value="Walkman"/>
+                    <observableObject id="observableObject2306" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2307" name="media_album_name" type="String" value="Bounzz"/>
+                    <observableObject id="observableObject2308" name="media_artist" type="String" value="Technohead"/>
+                    <observableObject id="observableObject2309" name="media_content_id" type="String" value="bounzz-1"/>
+                    <observableObject id="observableObject2310" name="media_content_type" type="String" value="music"/>
+                    <observableObject id="observableObject2311" name="media_duration" type="Number" value="213"/>
+                    <observableObject id="observableObject2312" name="media_title" type="String" value="I Wanna Be A Hippy (Flamman &amp; Abraxas Radio Mix)"/>
+                    <observableObject id="observableObject2313" name="media_track" type="Number" value="1"/>
+                    <observableObject id="observableObject2314" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2315" name="supported_features" type="Number" value="57789"/>
+                    <observableObject id="observableObject2316" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1819" name="entity_id" type="String" value="media_player.walkman"/>
-                <observableObject id="observableObject1820" name="last_changed" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
-                <observableObject id="observableObject1821" name="last_updated" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
-                <observableObject id="observableObject1822" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2317" name="entity_id" type="String" value="media_player.walkman"/>
+                <observableObject id="observableObject2318" name="last_changed" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
+                <observableObject id="observableObject2319" name="last_updated" type="String" value="2018-05-28T21:46:16.963925+00:00"/>
+                <observableObject id="observableObject2320" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1823" name="7" type="IndexObject" value="">
-                <observableObject id="observableObject1824" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1825" name="app_name" type="String" value="YouTube"/>
-                    <observableObject id="observableObject1826" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034"/>
-                    <observableObject id="observableObject1827" name="friendly_name" type="String" value="Living Room"/>
-                    <observableObject id="observableObject1828" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1829" name="media_content_id" type="String" value="eyU3bRy2x44"/>
-                    <observableObject id="observableObject1830" name="media_content_type" type="String" value="movie"/>
-                    <observableObject id="observableObject1831" name="media_duration" type="Number" value="300"/>
-                    <observableObject id="observableObject1832" name="media_position" type="Number" value="45.366799"/>
-                    <observableObject id="observableObject1833" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
-                    <observableObject id="observableObject1834" name="media_title" type="String" value="♥♥ The Best Fireplace Video (3 hours)"/>
-                    <observableObject id="observableObject1835" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1836" name="supported_features" type="Number" value="50061"/>
-                    <observableObject id="observableObject1837" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2321" name="7" type="IndexObject" value="">
+                <observableObject id="observableObject2322" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2323" name="app_name" type="String" value="YouTube"/>
+                    <observableObject id="observableObject2324" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.living_room?token=45d2f7fb45bea2be634cd5c71b2e99e908e8c38cd518a2c7cd3e0a34a24c4b54&amp;cache=bc2ffb49c4f67034"/>
+                    <observableObject id="observableObject2325" name="friendly_name" type="String" value="Living Room"/>
+                    <observableObject id="observableObject2326" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2327" name="media_content_id" type="String" value="eyU3bRy2x44"/>
+                    <observableObject id="observableObject2328" name="media_content_type" type="String" value="movie"/>
+                    <observableObject id="observableObject2329" name="media_duration" type="Number" value="300"/>
+                    <observableObject id="observableObject2330" name="media_position" type="Number" value="45.366799"/>
+                    <observableObject id="observableObject2331" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
+                    <observableObject id="observableObject2332" name="media_title" type="String" value="♥♥ The Best Fireplace Video (3 hours)"/>
+                    <observableObject id="observableObject2333" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2334" name="supported_features" type="Number" value="50061"/>
+                    <observableObject id="observableObject2335" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1838" name="entity_id" type="String" value="media_player.living_room"/>
-                <observableObject id="observableObject1839" name="last_changed" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
-                <observableObject id="observableObject1840" name="last_updated" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
-                <observableObject id="observableObject1841" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2336" name="entity_id" type="String" value="media_player.living_room"/>
+                <observableObject id="observableObject2337" name="last_changed" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
+                <observableObject id="observableObject2338" name="last_updated" type="String" value="2018-05-28T21:46:16.964779+00:00"/>
+                <observableObject id="observableObject2339" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1842" name="8" type="IndexObject" value="">
-                <observableObject id="observableObject1843" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1844" name="app_name" type="String" value="Netflix"/>
-                    <observableObject id="observableObject1845" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351"/>
-                    <observableObject id="observableObject1846" name="friendly_name" type="String" value="Lounge room"/>
-                    <observableObject id="observableObject1847" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1848" name="media_content_id" type="String" value="house-of-cards-1"/>
-                    <observableObject id="observableObject1849" name="media_content_type" type="String" value="tvshow"/>
-                    <observableObject id="observableObject1850" name="media_duration" type="Number" value="3600"/>
-                    <observableObject id="observableObject1851" name="media_episode" type="Number" value="1"/>
-                    <observableObject id="observableObject1852" name="media_season" type="Number" value="1"/>
-                    <observableObject id="observableObject1853" name="media_series_title" type="String" value="House of Cards"/>
-                    <observableObject id="observableObject1854" name="media_title" type="String" value="Chapter 1"/>
-                    <observableObject id="observableObject1855" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1856" name="source" type="String" value="dvd"/>
-                    <observableObject id="observableObject1857" name="supported_features" type="Number" value="51633"/>
-                    <observableObject id="observableObject1858" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2340" name="8" type="IndexObject" value="">
+                <observableObject id="observableObject2341" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2342" name="app_name" type="String" value="Netflix"/>
+                    <observableObject id="observableObject2343" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.lounge_room?token=58c19b6cc615eb165c844d23bf5369f30fa88d3dd77e47e24d406c7dc5aad7c9&amp;cache=cb9d84451faf9351"/>
+                    <observableObject id="observableObject2344" name="friendly_name" type="String" value="Lounge room"/>
+                    <observableObject id="observableObject2345" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2346" name="media_content_id" type="String" value="house-of-cards-1"/>
+                    <observableObject id="observableObject2347" name="media_content_type" type="String" value="tvshow"/>
+                    <observableObject id="observableObject2348" name="media_duration" type="Number" value="3600"/>
+                    <observableObject id="observableObject2349" name="media_episode" type="Number" value="1"/>
+                    <observableObject id="observableObject2350" name="media_season" type="Number" value="1"/>
+                    <observableObject id="observableObject2351" name="media_series_title" type="String" value="House of Cards"/>
+                    <observableObject id="observableObject2352" name="media_title" type="String" value="Chapter 1"/>
+                    <observableObject id="observableObject2353" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2354" name="source" type="String" value="dvd"/>
+                    <observableObject id="observableObject2355" name="supported_features" type="Number" value="51633"/>
+                    <observableObject id="observableObject2356" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1859" name="entity_id" type="String" value="media_player.lounge_room"/>
-                <observableObject id="observableObject1860" name="last_changed" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
-                <observableObject id="observableObject1861" name="last_updated" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
-                <observableObject id="observableObject1862" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2357" name="entity_id" type="String" value="media_player.lounge_room"/>
+                <observableObject id="observableObject2358" name="last_changed" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
+                <observableObject id="observableObject2359" name="last_updated" type="String" value="2018-05-28T21:46:16.966960+00:00"/>
+                <observableObject id="observableObject2360" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1863" name="9" type="IndexObject" value="">
-                <observableObject id="observableObject1864" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1865" name="app_name" type="String" value="YouTube"/>
-                    <observableObject id="observableObject1866" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151"/>
-                    <observableObject id="observableObject1867" name="friendly_name" type="String" value="Bedroom"/>
-                    <observableObject id="observableObject1868" name="is_volume_muted" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1869" name="media_content_id" type="String" value="kxopViU98Xo"/>
-                    <observableObject id="observableObject1870" name="media_content_type" type="String" value="movie"/>
-                    <observableObject id="observableObject1871" name="media_duration" type="Number" value="360000"/>
-                    <observableObject id="observableObject1872" name="media_position" type="Number" value="54000.370155"/>
-                    <observableObject id="observableObject1873" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
-                    <observableObject id="observableObject1874" name="media_title" type="String" value="Epic sax guy 10 hours"/>
-                    <observableObject id="observableObject1875" name="shuffle" type="Boolean" value="false"/>
-                    <observableObject id="observableObject1876" name="supported_features" type="Number" value="50061"/>
-                    <observableObject id="observableObject1877" name="volume_level" type="Number" value="1.0"/>
+            <observableObject id="observableObject2361" name="9" type="IndexObject" value="">
+                <observableObject id="observableObject2362" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2363" name="app_name" type="String" value="YouTube"/>
+                    <observableObject id="observableObject2364" name="entity_picture" type="String" value="/api/media_player_proxy/media_player.bedroom?token=2f8ffadb1601051e85c377cab3d124b3f709dbb54dad4ca43ce472b240ff1099&amp;cache=e4513ed94ec89151"/>
+                    <observableObject id="observableObject2365" name="friendly_name" type="String" value="Bedroom"/>
+                    <observableObject id="observableObject2366" name="is_volume_muted" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2367" name="media_content_id" type="String" value="kxopViU98Xo"/>
+                    <observableObject id="observableObject2368" name="media_content_type" type="String" value="movie"/>
+                    <observableObject id="observableObject2369" name="media_duration" type="Number" value="360000"/>
+                    <observableObject id="observableObject2370" name="media_position" type="Number" value="54000.370155"/>
+                    <observableObject id="observableObject2371" name="media_position_updated_at" type="String" value="2018-05-28T21:46:16.597980+00:00"/>
+                    <observableObject id="observableObject2372" name="media_title" type="String" value="Epic sax guy 10 hours"/>
+                    <observableObject id="observableObject2373" name="shuffle" type="Boolean" value="false"/>
+                    <observableObject id="observableObject2374" name="supported_features" type="Number" value="50061"/>
+                    <observableObject id="observableObject2375" name="volume_level" type="Number" value="1.0"/>
                 </observableObject>
-                <observableObject id="observableObject1878" name="entity_id" type="String" value="media_player.bedroom"/>
-                <observableObject id="observableObject1879" name="last_changed" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
-                <observableObject id="observableObject1880" name="last_updated" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
-                <observableObject id="observableObject1881" name="state" type="String" value="playing"/>
+                <observableObject id="observableObject2376" name="entity_id" type="String" value="media_player.bedroom"/>
+                <observableObject id="observableObject2377" name="last_changed" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
+                <observableObject id="observableObject2378" name="last_updated" type="String" value="2018-05-28T21:46:16.968135+00:00"/>
+                <observableObject id="observableObject2379" name="state" type="String" value="playing"/>
             </observableObject>
-            <observableObject id="observableObject1882" name="10" type="IndexObject" value="">
-                <observableObject id="observableObject1883" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1884" name="friendly_name" type="String" value="AC"/>
-                    <observableObject id="observableObject1885" name="icon" type="String" value="mdi:air-conditioner"/>
-                    <observableObject id="observableObject1886" name="today_energy_kwh" type="Number" value="15"/>
+            <observableObject id="observableObject2380" name="10" type="IndexObject" value="">
+                <observableObject id="observableObject2381" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2382" name="friendly_name" type="String" value="AC"/>
+                    <observableObject id="observableObject2383" name="icon" type="String" value="mdi:air-conditioner"/>
+                    <observableObject id="observableObject2384" name="today_energy_kwh" type="Number" value="15"/>
                 </observableObject>
-                <observableObject id="observableObject1887" name="entity_id" type="String" value="switch.ac"/>
-                <observableObject id="observableObject1888" name="last_changed" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
-                <observableObject id="observableObject1889" name="last_updated" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
-                <observableObject id="observableObject1890" name="state" type="String" value="off"/>
+                <observableObject id="observableObject2385" name="entity_id" type="String" value="switch.ac"/>
+                <observableObject id="observableObject2386" name="last_changed" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
+                <observableObject id="observableObject2387" name="last_updated" type="String" value="2018-05-28T21:46:16.969132+00:00"/>
+                <observableObject id="observableObject2388" name="state" type="String" value="off"/>
             </observableObject>
-            <observableObject id="observableObject1891" name="11" type="IndexObject" value="">
-                <observableObject id="observableObject1892" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1893" name="assumed_state" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1894" name="current_power_w" type="Number" value="100"/>
-                    <observableObject id="observableObject1895" name="friendly_name" type="String" value="Decorative Lights"/>
-                    <observableObject id="observableObject1896" name="today_energy_kwh" type="Number" value="15"/>
+            <observableObject id="observableObject2389" name="11" type="IndexObject" value="">
+                <observableObject id="observableObject2390" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2391" name="assumed_state" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2392" name="current_power_w" type="Number" value="100"/>
+                    <observableObject id="observableObject2393" name="friendly_name" type="String" value="Decorative Lights"/>
+                    <observableObject id="observableObject2394" name="today_energy_kwh" type="Number" value="15"/>
                 </observableObject>
-                <observableObject id="observableObject1897" name="entity_id" type="String" value="switch.decorative_lights"/>
-                <observableObject id="observableObject1898" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1899" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1900" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2395" name="entity_id" type="String" value="switch.decorative_lights"/>
+                <observableObject id="observableObject2396" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2397" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2398" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1901" name="12" type="IndexObject" value="">
-                <observableObject id="observableObject1902" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1903" name="brightness" type="Number" value="180"/>
-                    <observableObject id="observableObject1904" name="color_temp" type="Number" value="380"/>
-                    <observableObject id="observableObject1905" name="friendly_name" type="String" value="Ceiling Lights"/>
-                    <observableObject id="observableObject1906" name="hs_color" type="Array" value="">
-                        <observableObject id="observableObject1907" name="0" type="Index" value="56"/>
-                        <observableObject id="observableObject1908" name="1" type="Index" value="86"/>
+            <observableObject id="observableObject2399" name="12" type="IndexObject" value="">
+                <observableObject id="observableObject2400" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2401" name="brightness" type="Number" value="180"/>
+                    <observableObject id="observableObject2402" name="color_temp" type="Number" value="380"/>
+                    <observableObject id="observableObject2403" name="friendly_name" type="String" value="Ceiling Lights"/>
+                    <observableObject id="observableObject2404" name="hs_color" type="Array" value="">
+                        <observableObject id="observableObject2405" name="0" type="Index" value="56"/>
+                        <observableObject id="observableObject2406" name="1" type="Index" value="86"/>
                     </observableObject>
-                    <observableObject id="observableObject1909" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1910" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1911" name="rgb_color" type="Array" value="">
-                        <observableObject id="observableObject1912" name="0" type="Index" value="255"/>
-                        <observableObject id="observableObject1913" name="1" type="Index" value="240"/>
-                        <observableObject id="observableObject1914" name="2" type="Index" value="35"/>
+                    <observableObject id="observableObject2407" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2408" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2409" name="rgb_color" type="Array" value="">
+                        <observableObject id="observableObject2410" name="0" type="Index" value="255"/>
+                        <observableObject id="observableObject2411" name="1" type="Index" value="240"/>
+                        <observableObject id="observableObject2412" name="2" type="Index" value="35"/>
                     </observableObject>
-                    <observableObject id="observableObject1915" name="supported_features" type="Number" value="151"/>
-                    <observableObject id="observableObject1916" name="white_value" type="Number" value="200"/>
-                    <observableObject id="observableObject1917" name="xy_color" type="Array" value="">
-                        <observableObject id="observableObject1918" name="0" type="Index" value="0.459"/>
-                        <observableObject id="observableObject1919" name="1" type="Index" value="0.496"/>
-                    </observableObject>
-                </observableObject>
-                <observableObject id="observableObject1920" name="entity_id" type="String" value="light.ceiling_lights"/>
-                <observableObject id="observableObject1921" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1922" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
-                <observableObject id="observableObject1923" name="state" type="String" value="on"/>
-            </observableObject>
-            <observableObject id="observableObject1924" name="13" type="IndexObject" value="">
-                <observableObject id="observableObject1925" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1926" name="friendly_name" type="String" value="Bed Light"/>
-                    <observableObject id="observableObject1927" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1928" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1929" name="supported_features" type="Number" value="151"/>
-                </observableObject>
-                <observableObject id="observableObject1930" name="entity_id" type="String" value="light.bed_light"/>
-                <observableObject id="observableObject1931" name="last_changed" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
-                <observableObject id="observableObject1932" name="last_updated" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
-                <observableObject id="observableObject1933" name="state" type="String" value="off"/>
-            </observableObject>
-            <observableObject id="observableObject1934" name="14" type="IndexObject" value="">
-                <observableObject id="observableObject1935" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1936" name="brightness" type="Number" value="180"/>
-                    <observableObject id="observableObject1937" name="color_temp" type="Number" value="240"/>
-                    <observableObject id="observableObject1938" name="friendly_name" type="String" value="Kitchen Lights"/>
-                    <observableObject id="observableObject1939" name="hs_color" type="Array" value="">
-                        <observableObject id="observableObject1940" name="0" type="Index" value="345"/>
-                        <observableObject id="observableObject1941" name="1" type="Index" value="75"/>
-                    </observableObject>
-                    <observableObject id="observableObject1942" name="max_mireds" type="Number" value="500"/>
-                    <observableObject id="observableObject1943" name="min_mireds" type="Number" value="153"/>
-                    <observableObject id="observableObject1944" name="rgb_color" type="Array" value="">
-                        <observableObject id="observableObject1945" name="0" type="Index" value="255"/>
-                        <observableObject id="observableObject1946" name="1" type="Index" value="63"/>
-                        <observableObject id="observableObject1947" name="2" type="Index" value="111"/>
-                    </observableObject>
-                    <observableObject id="observableObject1948" name="supported_features" type="Number" value="151"/>
-                    <observableObject id="observableObject1949" name="white_value" type="Number" value="200"/>
-                    <observableObject id="observableObject1950" name="xy_color" type="Array" value="">
-                        <observableObject id="observableObject1951" name="0" type="Index" value="0.59"/>
-                        <observableObject id="observableObject1952" name="1" type="Index" value="0.274"/>
+                    <observableObject id="observableObject2413" name="supported_features" type="Number" value="151"/>
+                    <observableObject id="observableObject2414" name="white_value" type="Number" value="200"/>
+                    <observableObject id="observableObject2415" name="xy_color" type="Array" value="">
+                        <observableObject id="observableObject2416" name="0" type="Index" value="0.459"/>
+                        <observableObject id="observableObject2417" name="1" type="Index" value="0.496"/>
                     </observableObject>
                 </observableObject>
-                <observableObject id="observableObject1953" name="entity_id" type="String" value="light.kitchen_lights"/>
-                <observableObject id="observableObject1954" name="last_changed" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
-                <observableObject id="observableObject1955" name="last_updated" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
-                <observableObject id="observableObject1956" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2418" name="entity_id" type="String" value="light.ceiling_lights"/>
+                <observableObject id="observableObject2419" name="last_changed" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2420" name="last_updated" type="String" value="2018-05-28T21:46:16.970130+00:00"/>
+                <observableObject id="observableObject2421" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1957" name="15" type="IndexObject" value="">
-                <observableObject id="observableObject1958" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1959" name="assumed_state" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1960" name="auto" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1961" name="entity_id" type="Array" value="">
-                        <observableObject id="observableObject1962" name="0" type="Index" value="switch.ac"/>
-                        <observableObject id="observableObject1963" name="1" type="Index" value="switch.decorative_lights"/>
+            <observableObject id="observableObject2422" name="13" type="IndexObject" value="">
+                <observableObject id="observableObject2423" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2424" name="friendly_name" type="String" value="Bed Light"/>
+                    <observableObject id="observableObject2425" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2426" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2427" name="supported_features" type="Number" value="151"/>
+                </observableObject>
+                <observableObject id="observableObject2428" name="entity_id" type="String" value="light.bed_light"/>
+                <observableObject id="observableObject2429" name="last_changed" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
+                <observableObject id="observableObject2430" name="last_updated" type="String" value="2018-05-28T21:46:16.971133+00:00"/>
+                <observableObject id="observableObject2431" name="state" type="String" value="off"/>
+            </observableObject>
+            <observableObject id="observableObject2432" name="14" type="IndexObject" value="">
+                <observableObject id="observableObject2433" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2434" name="brightness" type="Number" value="180"/>
+                    <observableObject id="observableObject2435" name="color_temp" type="Number" value="240"/>
+                    <observableObject id="observableObject2436" name="friendly_name" type="String" value="Kitchen Lights"/>
+                    <observableObject id="observableObject2437" name="hs_color" type="Array" value="">
+                        <observableObject id="observableObject2438" name="0" type="Index" value="345"/>
+                        <observableObject id="observableObject2439" name="1" type="Index" value="75"/>
                     </observableObject>
-                    <observableObject id="observableObject1964" name="friendly_name" type="String" value="all switches"/>
-                    <observableObject id="observableObject1965" name="hidden" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1966" name="order" type="Number" value="0"/>
-                </observableObject>
-                <observableObject id="observableObject1967" name="entity_id" type="String" value="group.all_switches"/>
-                <observableObject id="observableObject1968" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1969" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1970" name="state" type="String" value="on"/>
-            </observableObject>
-            <observableObject id="observableObject1971" name="16" type="IndexObject" value="">
-                <observableObject id="observableObject1972" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1973" name="auto" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1974" name="entity_id" type="Array" value="">
-                        <observableObject id="observableObject1975" name="0" type="Index" value="light.bed_light"/>
-                        <observableObject id="observableObject1976" name="1" type="Index" value="light.ceiling_lights"/>
-                        <observableObject id="observableObject1977" name="2" type="Index" value="light.kitchen_lights"/>
+                    <observableObject id="observableObject2440" name="max_mireds" type="Number" value="500"/>
+                    <observableObject id="observableObject2441" name="min_mireds" type="Number" value="153"/>
+                    <observableObject id="observableObject2442" name="rgb_color" type="Array" value="">
+                        <observableObject id="observableObject2443" name="0" type="Index" value="255"/>
+                        <observableObject id="observableObject2444" name="1" type="Index" value="63"/>
+                        <observableObject id="observableObject2445" name="2" type="Index" value="111"/>
                     </observableObject>
-                    <observableObject id="observableObject1978" name="friendly_name" type="String" value="all lights"/>
-                    <observableObject id="observableObject1979" name="hidden" type="Boolean" value="true"/>
-                    <observableObject id="observableObject1980" name="order" type="Number" value="0"/>
+                    <observableObject id="observableObject2446" name="supported_features" type="Number" value="151"/>
+                    <observableObject id="observableObject2447" name="white_value" type="Number" value="200"/>
+                    <observableObject id="observableObject2448" name="xy_color" type="Array" value="">
+                        <observableObject id="observableObject2449" name="0" type="Index" value="0.59"/>
+                        <observableObject id="observableObject2450" name="1" type="Index" value="0.274"/>
+                    </observableObject>
                 </observableObject>
-                <observableObject id="observableObject1981" name="entity_id" type="String" value="group.all_lights"/>
-                <observableObject id="observableObject1982" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1983" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
-                <observableObject id="observableObject1984" name="state" type="String" value="on"/>
+                <observableObject id="observableObject2451" name="entity_id" type="String" value="light.kitchen_lights"/>
+                <observableObject id="observableObject2452" name="last_changed" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
+                <observableObject id="observableObject2453" name="last_updated" type="String" value="2018-05-28T21:46:16.972240+00:00"/>
+                <observableObject id="observableObject2454" name="state" type="String" value="on"/>
             </observableObject>
-            <observableObject id="observableObject1985" name="17" type="IndexObject" value="">
-                <observableObject id="observableObject1986" name="attributes" type="Object" value="">
-                    <observableObject id="observableObject1987" name="message" type="String" value="Login attempt or request with invalid authentication from 127.0.0.1"/>
-                    <observableObject id="observableObject1988" name="title" type="String" value="Login attempt failed"/>
+            <observableObject id="observableObject2455" name="15" type="IndexObject" value="">
+                <observableObject id="observableObject2456" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2457" name="assumed_state" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2458" name="auto" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2459" name="entity_id" type="Array" value="">
+                        <observableObject id="observableObject2460" name="0" type="Index" value="switch.ac"/>
+                        <observableObject id="observableObject2461" name="1" type="Index" value="switch.decorative_lights"/>
+                    </observableObject>
+                    <observableObject id="observableObject2462" name="friendly_name" type="String" value="all switches"/>
+                    <observableObject id="observableObject2463" name="hidden" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2464" name="order" type="Number" value="0"/>
                 </observableObject>
-                <observableObject id="observableObject1989" name="entity_id" type="String" value="persistent_notification.httplogin"/>
-                <observableObject id="observableObject1990" name="last_changed" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
-                <observableObject id="observableObject1991" name="last_updated" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
-                <observableObject id="observableObject1992" name="state" type="String" value="notifying"/>
+                <observableObject id="observableObject2465" name="entity_id" type="String" value="group.all_switches"/>
+                <observableObject id="observableObject2466" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2467" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2468" name="state" type="String" value="on"/>
+            </observableObject>
+            <observableObject id="observableObject2469" name="16" type="IndexObject" value="">
+                <observableObject id="observableObject2470" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2471" name="auto" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2472" name="entity_id" type="Array" value="">
+                        <observableObject id="observableObject2473" name="0" type="Index" value="light.bed_light"/>
+                        <observableObject id="observableObject2474" name="1" type="Index" value="light.ceiling_lights"/>
+                        <observableObject id="observableObject2475" name="2" type="Index" value="light.kitchen_lights"/>
+                    </observableObject>
+                    <observableObject id="observableObject2476" name="friendly_name" type="String" value="all lights"/>
+                    <observableObject id="observableObject2477" name="hidden" type="Boolean" value="true"/>
+                    <observableObject id="observableObject2478" name="order" type="Number" value="0"/>
+                </observableObject>
+                <observableObject id="observableObject2479" name="entity_id" type="String" value="group.all_lights"/>
+                <observableObject id="observableObject2480" name="last_changed" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2481" name="last_updated" type="String" value="2018-05-28T21:46:17.011229+00:00"/>
+                <observableObject id="observableObject2482" name="state" type="String" value="on"/>
+            </observableObject>
+            <observableObject id="observableObject2483" name="17" type="IndexObject" value="">
+                <observableObject id="observableObject2484" name="attributes" type="Object" value="">
+                    <observableObject id="observableObject2485" name="message" type="String" value="Login attempt or request with invalid authentication from 127.0.0.1"/>
+                    <observableObject id="observableObject2486" name="title" type="String" value="Login attempt failed"/>
+                </observableObject>
+                <observableObject id="observableObject2487" name="entity_id" type="String" value="persistent_notification.httplogin"/>
+                <observableObject id="observableObject2488" name="last_changed" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
+                <observableObject id="observableObject2489" name="last_updated" type="String" value="2018-06-01T16:59:52.837044+00:00"/>
+                <observableObject id="observableObject2490" name="state" type="String" value="notifying"/>
             </observableObject>
         </observableObject>
     </dataModel>
