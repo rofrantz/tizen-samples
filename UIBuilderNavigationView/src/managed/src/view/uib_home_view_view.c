@@ -64,7 +64,30 @@ void uib_home_view_config_CIRCLE_360x360_portrait() {
 			elm_object_style_set(vc->btn_next,"bottom");
 			evas_object_show(vc->btn_next);
 		}
-		elm_grid_pack(vc->grid1, vc->entities, 0, 6, 1000, 994);		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		evas_object_show(vc->grid1);
+		if (!vc->hass_box) {
+			vc->hass_box = elm_box_add(vc->grid1);
+		}
+		if(vc->hass_box) {
+			elm_win_alpha_set(vc->hass_box, EINA_FALSE);
+			elm_box_homogeneous_set(vc->hass_box, EINA_FALSE);
+			elm_box_horizontal_set(vc->hass_box, EINA_FALSE);
+			elm_box_padding_set(vc->hass_box,0,0);
+			evas_object_size_hint_align_set(vc->hass_box, -1.0, -1.0);
+			evas_object_size_hint_weight_set(vc->hass_box, 1.0, 1.0);
+			if (!vc->friendly_name) {
+				vc->friendly_name = elm_label_add(vc->hass_box);
+			}
+			if(vc->friendly_name) {
+				evas_object_size_hint_align_set(vc->friendly_name, 0.5, 0.5);				evas_object_size_hint_weight_set(vc->friendly_name, 1.0, 1.0);				elm_object_text_set(vc->friendly_name,_UIB_LOCALE("FriendlyName"));
+				elm_label_line_wrap_set(vc->friendly_name, (Elm_Wrap_Type)ELM_WRAP_NONE);
+				elm_label_wrap_width_set(vc->friendly_name,0);
+				elm_label_ellipsis_set(vc->friendly_name, EINA_FALSE);
+				evas_object_show(vc->friendly_name);
+			}
+			elm_box_pack_end(vc->hass_box, vc->friendly_name);
+			evas_object_show(vc->hass_box);
+		}
+		elm_grid_pack(vc->grid1, vc->entities, 0, 6, 1000, 994);		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->hass_box, 14, 242, 1000, 436);		evas_object_show(vc->grid1);
 	}
 }
 

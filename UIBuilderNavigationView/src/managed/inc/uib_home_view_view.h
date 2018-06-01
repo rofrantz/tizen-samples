@@ -38,6 +38,10 @@ typedef struct _uib_home_view_view_context {
 	Evas_Object *circle_object_entities;
 	Evas_Object *btn_next;
 	Evas_Object *circle_object_btn_next;
+	Evas_Object *hass_box;
+	Evas_Object *circle_object_hass_box;
+	Evas_Object *friendly_name;
+	Evas_Object *circle_object_friendly_name;
 } uib_home_view_view_context;
 
 
