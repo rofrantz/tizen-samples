@@ -5,8 +5,8 @@
 * Do not hand edit this file.
 ********************************************************************************/
 				
-#ifndef UIB_VIEW1_VIEW_H_
-#define UIB_VIEW1_VIEW_H_
+#ifndef UIB_HOME_VIEW_VIEW_H_
+#define UIB_HOME_VIEW_VIEW_H_
 
 
 #include "g_inc_uib.h"
@@ -16,7 +16,7 @@
 * view context definitions
 */
 
-typedef struct _uib_view1_view_context {
+typedef struct _uib_home_view_view_context {
 
 	/* parent evas_object which was parameter of create function */
 	Evas_Object *parent;
@@ -29,7 +29,7 @@ typedef struct _uib_view1_view_context {
 	/* This is view type. 'true' is user view, otherwise a UI Builder's view. */
 	bool is_user_view;
 	/* control context to control this view */
-	struct _uib_view1_control_context *cc;
+	struct _uib_home_view_control_context *cc;
 
 	/* UI Components in this view */
 	Evas_Object *grid1;
@@ -40,7 +40,7 @@ typedef struct _uib_view1_view_context {
 	Evas_Object *circle_object_box1;
 	Evas_Object *label1;
 	Evas_Object *circle_object_label1;
-} uib_view1_view_context;
+} uib_home_view_view_context;
 
 
 
@@ -48,10 +48,10 @@ typedef struct _uib_view1_view_context {
 * @brief	Create a new view then return view context of that view.
 * 			You can delete view using evas_object_del(vc->evas_object) like other EFL evas objects.
 */
-uib_view_context *uib_view_view1_create(Evas_Object *parent, void *create_callback_param);
-uib_view_context *uib_view_view1_destroy(Evas_Object *parent, void *create_callback_param);
+uib_view_context *uib_view_home_view_create(Evas_Object *parent, void *create_callback_param);
+uib_view_context *uib_view_home_view_destroy(Evas_Object *parent, void *create_callback_param);
 
-void uib_view1_config_CIRCLE_360x360_portrait();
-void view1_btn_next_onclicked(uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
-void view1_btn_next_onclicked_post(void* param, uib_view1_view_context *vc, Evas_Object *obj, void *event_info);
-#endif /* UIB_VIEW1_VIEW_H_ */
+void uib_home_view_config_CIRCLE_360x360_portrait();
+void home_view_btn_next_onclicked(uib_home_view_view_context *vc, Evas_Object *obj, void *event_info);
+void home_view_btn_next_onclicked_post(void* param, uib_home_view_view_context *vc, Evas_Object *obj, void *event_info);
+#endif /* UIB_HOME_VIEW_VIEW_H_ */

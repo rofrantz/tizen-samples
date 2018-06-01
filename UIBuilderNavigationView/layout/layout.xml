@@ -4,15 +4,16 @@
 		<configuration device="CIRCLE_360x360" id="config1"
 			name="common" orientation="portrait" type="common" />
 	</mscreen>
-	<views startup="view1">
-		<view id="view1" indicator="true" type="view" page_location_x="0" page_location_y="0">
+	<views startup="home_view">
+		<view id="home_view" indicator="true" type="view"
+			page_location_x="0" page_location_y="0">
 			<grid align_h="fill" align_v="fill" id="grid1" visible="true"
 				vsize_h="1000" vsize_w="1000" weight_h="1" weight_v="1">
 				<button align_h="fill" align_v="fill" disable="false" id="btn_next"
 					pack_h="80" pack_w="800" pack_x="100" pack_y="850" style="bottom"
 					text="Next" data_bind="" visible="true" weight_h="1" weight_v="1">
-					<event connection_wrapper="connection_view1_btn_next_onclicked"
-						event_name="clicked" function_name="view1_btn_next_onclicked"
+					<event connection_wrapper="connection_home_view_btn_next_onclicked"
+						event_name="clicked" function_name="home_view_btn_next_onclicked"
 						signal="clicked" target="view2" />
 				</button>
 				<box align_v="fill" visible="true" weight_v="1" pack_h="435"
@@ -25,7 +26,8 @@
 				</box>
 			</grid>
 		</view>
-		<view id="view2" indicator="true" type="view" page_location_x="600" page_location_y="0">
+		<view id="view2" indicator="true" type="view" page_location_x="600"
+			page_location_y="0">
 			<grid align_h="fill" align_v="fill" id="grid1" visible="true"
 				vsize_h="1000" vsize_w="1000" weight_h="1" weight_v="1">
 				<button align_h="fill" align_v="fill" disable="false" id="button1"
@@ -33,7 +35,7 @@
 					text="Previous" data_bind="" visible="true" weight_h="1" weight_v="1">
 					<event connection_wrapper="connection_view2_button1_onclicked"
 						event_name="clicked" function_name="view2_button1_onclicked"
-						signal="clicked" target="view1" />
+						signal="clicked" target="home_view" />
 				</button>
 				<button align_h="fill" align_v="fill" disable="false" id="button2"
 					pack_h="80" pack_w="800" pack_x="100" pack_y="850" style="bottom"
@@ -52,7 +54,8 @@
 				</box>
 			</grid>
 		</view>
-		<view id="view3" indicator="true" type="view" page_location_x="1200" page_location_y="0">
+		<view id="view3" indicator="true" type="view" page_location_x="1200"
+			page_location_y="0">
 			<grid align_h="fill" align_v="fill" id="grid1" visible="true"
 				vsize_h="1000" vsize_w="1000" weight_h="1" weight_v="1">
 				<button align_h="fill" align_v="fill" disable="false" id="button1"

@@ -9,7 +9,7 @@
 
 void connection_view2_button1_onclicked(uib_view2_view_context *vc, Evas_Object *obj, void *event_info){
 	view2_button1_onclicked(vc, obj, event_info);
-	Elm_Object_Item* navi_item = uib_util_push_view("view1");
+	Elm_Object_Item* navi_item = uib_util_push_view("home_view");
 	view2_button1_onclicked_post(navi_item, vc, obj, event_info);
 }
 void connection_view2_button2_onclicked(uib_view2_view_context *vc, Evas_Object *obj, void *event_info){

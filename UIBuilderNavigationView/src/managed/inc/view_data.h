@@ -12,7 +12,7 @@
 typedef struct _uib_view_data {
 	Evas_Object* win;
 
-	uib_view_context* view1;
+	uib_view_context* home_view;
 	uib_view_context* view2;
 	uib_view_context* view3;
 } uib_view_data;

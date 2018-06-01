@@ -11,12 +11,12 @@
 
 
 /* event handler declarations */
-void connection_view1_btn_next_onclicked(uib_view1_view_context*, Evas_Object*, void*);
+void connection_home_view_btn_next_onclicked(uib_home_view_view_context*, Evas_Object*, void*);
 
-uib_view_context* uib_view_view1_create(Evas_Object* parent, void* create_callback_param) {
-	uib_view1_view_context* vc = calloc(1, sizeof(uib_view1_view_context));
+uib_view_context* uib_view_home_view_create(Evas_Object* parent, void* create_callback_param) {
+	uib_home_view_view_context* vc = calloc(1, sizeof(uib_home_view_view_context));
 	vc->parent = parent;
-	vc->view_name = "view1";
+	vc->view_name = "home_view";
 	vc->indicator_state = ELM_WIN_INDICATOR_SHOW;
 	vc->is_user_view = false;
 	uib_app_manager_get_instance()->add_view_context((uib_view_context*)vc);
@@ -27,7 +27,7 @@ uib_view_context* uib_view_view1_create(Evas_Object* parent, void* create_callba
 	uib_views_get_instance()->set_targeted_view((uib_view_context*)vc);
 
 	//bind event handler
-	evas_object_smart_callback_add(vc->btn_next, "clicked", (Evas_Smart_Cb)connection_view1_btn_next_onclicked, vc);
+	evas_object_smart_callback_add(vc->btn_next, "clicked", (Evas_Smart_Cb)connection_home_view_btn_next_onclicked, vc);
 
 
 
@@ -37,9 +37,9 @@ uib_view_context* uib_view_view1_create(Evas_Object* parent, void* create_callba
 
 	return (uib_view_context*)vc;
 }
-void uib_view1_config_CIRCLE_360x360_portrait() {
+void uib_home_view_config_CIRCLE_360x360_portrait() {
 	uib_app_manager_st* uib_app_manager = uib_app_manager_get_instance();
-	uib_view1_view_context* vc = (uib_view1_view_context*)uib_app_manager->find_view_context("view1");
+	uib_home_view_view_context* vc = (uib_home_view_view_context*)uib_app_manager->find_view_context("home_view");
 	if(!vc) {
 		return;
 	}

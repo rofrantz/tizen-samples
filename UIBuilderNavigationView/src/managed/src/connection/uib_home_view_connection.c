@@ -7,8 +7,8 @@
 #include "app_main.h"
 #include "uib_views_inc.h"
 
-void connection_view1_btn_next_onclicked(uib_view1_view_context *vc, Evas_Object *obj, void *event_info){
-	view1_btn_next_onclicked(vc, obj, event_info);
+void connection_home_view_btn_next_onclicked(uib_home_view_view_context *vc, Evas_Object *obj, void *event_info){
+	home_view_btn_next_onclicked(vc, obj, event_info);
 	Elm_Object_Item* navi_item = uib_util_push_view("view2");
-	view1_btn_next_onclicked_post(navi_item, vc, obj, event_info);
+	home_view_btn_next_onclicked_post(navi_item, vc, obj, event_info);
 }

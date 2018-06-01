@@ -8,7 +8,7 @@
 #ifndef UIB_VIEWS_INC_H_
 #define UIB_VIEWS_INC_H_
 
-#include "uib_view1_view.h"
+#include "uib_home_view_view.h"
 #include "uib_view2_view.h"
 #include "uib_view3_view.h"
 

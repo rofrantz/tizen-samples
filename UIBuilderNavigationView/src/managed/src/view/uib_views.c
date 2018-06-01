@@ -13,7 +13,7 @@
 #include "uib_app_manager.h"
 
 #define ICON_MIN_SIZE 30
-#define DEF_STARTUP_VIEW_NAME "view1"
+#define DEF_STARTUP_VIEW_NAME "home_view"
 
 char* gpsz_startup_view_name = NULL;
 uib_user_views_st gst_uib_user_views[DEF_UIB_VIEW_MAX_NUM];
@@ -36,8 +36,8 @@ int find_user_view_idx(char* view_name);
 int get_total_hit_num(uib_view_context* vc);
 void uib_views_current_view_redraw();
 
-static void (*uib_view1_config_delegate_portrait)();
-static void (*uib_view1_config_delegate_landscape)();
+static void (*uib_home_view_config_delegate_portrait)();
+static void (*uib_home_view_config_delegate_landscape)();
 
 static void (*uib_view2_config_delegate_portrait)();
 static void (*uib_view2_config_delegate_landscape)();
@@ -45,8 +45,8 @@ static void (*uib_view2_config_delegate_landscape)();
 static void (*uib_view3_config_delegate_portrait)();
 static void (*uib_view3_config_delegate_landscape)();
 
-char* g_view1_config_name_portrait = NULL;
-char* g_view1_config_name_landscape = NULL;
+char* g_home_view_config_name_portrait = NULL;
+char* g_home_view_config_name_landscape = NULL;
 char* g_view2_config_name_portrait = NULL;
 char* g_view2_config_name_landscape = NULL;
 char* g_view3_config_name_portrait = NULL;
@@ -106,10 +106,10 @@ void uib_views_init() {
 		const uib_device_info_st* uib_device_info = uib_app_manager_get_instance()->get_uib_device_info();
 		switch(uib_device_info->resolution_type) {
 		case e_resolution_CIRCLE_360x360:
-			uib_view1_config_delegate_portrait = &uib_view1_config_CIRCLE_360x360_portrait;
-			g_view1_config_name_portrait = "common";
-			uib_view1_config_delegate_landscape = &uib_view1_config_CIRCLE_360x360_portrait;
-			g_view1_config_name_landscape = "common";
+			uib_home_view_config_delegate_portrait = &uib_home_view_config_CIRCLE_360x360_portrait;
+			g_home_view_config_name_portrait = "common";
+			uib_home_view_config_delegate_landscape = &uib_home_view_config_CIRCLE_360x360_portrait;
+			g_home_view_config_name_landscape = "common";
 
 			uib_view2_config_delegate_portrait = &uib_view2_config_CIRCLE_360x360_portrait;
 			g_view2_config_name_portrait = "common";
@@ -124,10 +124,10 @@ void uib_views_init() {
 			break;
 
 		default:
-			uib_view1_config_delegate_portrait = &uib_view1_config_CIRCLE_360x360_portrait;
-			uib_view1_config_delegate_landscape = &uib_view1_config_CIRCLE_360x360_portrait;
-			g_view1_config_name_portrait = "common";
-			g_view1_config_name_landscape = "common";
+			uib_home_view_config_delegate_portrait = &uib_home_view_config_CIRCLE_360x360_portrait;
+			uib_home_view_config_delegate_landscape = &uib_home_view_config_CIRCLE_360x360_portrait;
+			g_home_view_config_name_portrait = "common";
+			g_home_view_config_name_landscape = "common";
 
 			uib_view2_config_delegate_portrait = &uib_view2_config_CIRCLE_360x360_portrait;
 			uib_view2_config_delegate_landscape = &uib_view2_config_CIRCLE_360x360_portrait;
@@ -182,12 +182,12 @@ void set_targeted_view(uib_view_context* vc) {
 	gi_cur_user_view_idx = (vc->is_user_view)? find_user_view_idx((char*)view_name) : -1;
 
 	if(gi_cur_user_view_idx < 0) {
-		if(!strcmp(view_name,"view1")) {
-			gst_uib_views.uib_view_target_config_portrait = uib_view1_config_delegate_portrait;
-			gst_uib_views.uib_view_target_config_landscape = uib_view1_config_delegate_landscape;
+		if(!strcmp(view_name,"home_view")) {
+			gst_uib_views.uib_view_target_config_portrait = uib_home_view_config_delegate_portrait;
+			gst_uib_views.uib_view_target_config_landscape = uib_home_view_config_delegate_landscape;
 
-			g_views_config_delegate_name_portrait = g_view1_config_name_portrait;
-			g_views_config_delegate_name_landscape = g_view1_config_name_landscape;
+			g_views_config_delegate_name_portrait = g_home_view_config_name_portrait;
+			g_views_config_delegate_name_landscape = g_home_view_config_name_landscape;
 
 			uib_util_rotation_set(g_win_obj->win, e_rotation_default);
 		} else if(!strcmp(view_name,"view2")) {

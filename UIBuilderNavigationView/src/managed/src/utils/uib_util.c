@@ -75,8 +75,8 @@ Elm_Object_Item* uib_util_push_view(char *view_name) {
 	Evas_Object* app_nf = uib_views_get_instance()->get_window_obj()->app_naviframe;
 	uib_view_context* vc=NULL;
 	
-	if(!strcmp(view_name,"view1")) {
-		vc = uib_view_view1_create(app_nf, NULL);
+	if(!strcmp(view_name,"home_view")) {
+		vc = uib_view_home_view_create(app_nf, NULL);
 	} else if(!strcmp(view_name,"view2")) {
 		vc = uib_view_view2_create(app_nf, NULL);
 	} else if(!strcmp(view_name,"view3")) {
