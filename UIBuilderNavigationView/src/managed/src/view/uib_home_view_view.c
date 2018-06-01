@@ -8,6 +8,7 @@
 #include "uib_views.h"
 #include "uib_views_inc.h"
 #include "uib_app_manager.h"
+#include "uib_db_manager.h"
 
 
 /* event handler declarations */
@@ -34,6 +35,8 @@ uib_view_context* uib_view_home_view_create(Evas_Object* parent, void* create_ca
 	evas_object_data_set(vc->root_container, KEY_VIEW_CONTEXT, vc);
 	uib_views_create_callback(vc, evas_object_evas_get(vc->root_container), vc->root_container, create_callback_param);
 	evas_object_event_callback_add(vc->root_container, EVAS_CALLBACK_DEL, (Evas_Object_Event_Cb)uib_views_destroy_callback, vc);
+
+	uib_databinding_manager_get_instance()->perform_databinding((uib_view_context*)vc);
 
 	return (uib_view_context*)vc;
 }
