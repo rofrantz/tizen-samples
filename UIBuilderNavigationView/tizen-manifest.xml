@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0"
-	package="org.example.uibuildernavigationview" version="1.0.0">
-	<profile name="wearable" />
-	<ui-application appid="org.example.uibuildernavigationview" exec="uibuildernavigationview"
-		type="capp" multiple="false" taskmanage="true" nodisplay="false">
-		<icon>uibuildernavigationview.png</icon>
-		<label>uibuildernavigationview</label>
-	</ui-application>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.uibuildernavigationview" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="org.example.uibuildernavigationview" exec="uibuildernavigationview" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>uibuildernavigationview</label>
+        <icon>uibuildernavigationview.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/download</privilege>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
 </manifest>
