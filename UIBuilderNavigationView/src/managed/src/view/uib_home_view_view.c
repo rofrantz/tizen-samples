@@ -77,7 +77,7 @@ void uib_home_view_config_CIRCLE_360x360_portrait() {
 			elm_box_pack_end(vc->box1, vc->label1);
 			evas_object_show(vc->box1);
 		}
-		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->box1, 0, 265, 1000, 435);		evas_object_show(vc->grid1);
+		elm_grid_pack(vc->grid1, vc->btn_next, 100, 850, 800, 80);		elm_grid_pack(vc->grid1, vc->box1, 8, 626, 1000, 110);		evas_object_show(vc->grid1);
 	}
 }
 

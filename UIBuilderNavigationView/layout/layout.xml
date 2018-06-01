@@ -16,9 +16,9 @@
 						event_name="clicked" function_name="home_view_btn_next_onclicked"
 						signal="clicked" target="view2" />
 				</button>
-				<box align_v="fill" visible="true" weight_v="1" pack_h="435"
+				<box align_v="fill" visible="true" weight_v="1" pack_h="110"
 					padding_h="0" weight_h="1" homogeneous="false" align_h="fill"
-					pack_w="1000" pack_x="0" pack_y="265" padding_v="0" id="box1"
+					pack_w="1000" pack_x="8" pack_y="626" padding_v="0" id="box1"
 					direction="vertical">
 					<label align_h="0.5" wrap_width="0" align_v="0.5" visible="true"
 						weight_v="1" line_wrap="none" id="label1" text="1st View"
