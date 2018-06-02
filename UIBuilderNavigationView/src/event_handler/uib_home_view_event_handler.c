@@ -8,6 +8,8 @@
 #include "uib_app_manager.h"
 #include "uib_views.h"
 #include "uib_views_inc.h"
+#include "Eina.h"
+#include "uib_hass_entity_datamodel.h"
 
 typedef struct _uib_home_view_control_context {
 	/* add your variables here */
@@ -33,3 +35,12 @@ void home_view_btn_next_onclicked_post(void* param, uib_home_view_view_context *
 	//Invoked post wrapper function home_view_connection_home_view_btn_next_onclicked
 
 }
+
+void home_view_onuib_view_create(uib_home_view_view_context *vc, Evas_Object *obj, void *event_info) {
+	uib_datamodel_context* datamodel = uib_datamodels_get_instance()->get_datamodel_context("hass_entity");
+
+	char *label = "Item X";
+
+	create_genlist_item(vc->entities, "title" , label, _UIB_LOCALE("Sub Text 2"), "","", "","", NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
+}
+

@@ -20,9 +20,8 @@
                     <label align_h="0.5" wrap_width="0" align_v="0.5" visible="true" weight_v="1" line_wrap="none"
                            id="friendly_name" text="FriendlyName" weight_h="1" ellipsis="false"
                            data_bind="text: hass_entity/root/TreeRoot[state='off']/entity_id"></label>
-                </box>
-            </grid>
-        </view>
+                </box></grid>
+        <event function_name="home_view_onuib_view_create" signal="uib,view,create"/></view>
         <view id="view2" indicator="true" type="view" page_location_x="600"
               page_location_y="0">
             <grid align_h="fill" align_v="fill" id="grid1" visible="true"

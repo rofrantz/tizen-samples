@@ -12,6 +12,7 @@
 
 
 /* event handler declarations */
+void home_view_onuib_view_create(uib_home_view_view_context*, Evas_Object*, void*);
 void connection_home_view_btn_next_onclicked(uib_home_view_view_context*, Evas_Object*, void*);
 
 uib_view_context* uib_view_home_view_create(Evas_Object* parent, void* create_callback_param) {
@@ -28,6 +29,7 @@ uib_view_context* uib_view_home_view_create(Evas_Object* parent, void* create_ca
 	uib_views_get_instance()->set_targeted_view((uib_view_context*)vc);
 
 	//bind event handler
+	evas_object_smart_callback_add(vc->root_container, "uib,view,create", (Evas_Smart_Cb)home_view_onuib_view_create, vc);
 	evas_object_smart_callback_add(vc->btn_next, "clicked", (Evas_Smart_Cb)connection_home_view_btn_next_onclicked, vc);
 
 
