@@ -1,6 +1,5 @@
 /.metadata/
-/SettingsUI/
 /author.p12
-/UIBuilderNavigationView/Debug/
-/UIBuilderNavigationView/.sign/
-/UIBuilderNavigationView/Debug/.ninja_log
+/*/Debug/
+/*/.sign/
+

@@ -1,0 +1,539 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="AuthorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="bin%2Fsettingsui">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Gsik5VaxwXAXikoDM1E9ic2ylRdDxK12tfjZvb7vtU8=</DigestValue>
+</Reference>
+<Reference URI="lib%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>S2utCtjNdht3/qC+04h+ZeZycatwGgA0I4RHngpL4ZQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fadopt.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mYjTAlq2frB6ZwpmjK9XdJ62q4gcu6D3BO/Q9dKNJKg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Falloc.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ukm0tvLb9S5qsKRsw8plal+gNrvJ9oqtENMzjamr/BE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fconnect.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rKg6MXerniwUzQFKMbJidcrnm3tWsIRV/k8AwpkHutA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fcontext.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bEjfFK0NsFd4o+gMgIRsTeU85+GzvNR6XsqTihcn6fs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Flibwebsockets.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>c5m7yits2NRSE2q6UOG6h64n56ty2eK+c4YiKwAvk1A=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Foutput.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>TPrt0UfqZ7DhmxncOj/CwkD57J5+EicdjkR5Km8K63g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fpollfd.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DX2pQ5FvjfVsKCMOqFYnTi11fhYrJ8qHH57E9U6aCWw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>GlG0YT8wCIOW1kX5xQX2KdrvE4EtMYrjTAa9mi376E4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fcore%2Fservice.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>U2ucy6DCNmyITtVUSEkH085wrmaGOusfF6sjT9jouoM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XNLoR5R8EaGdAiyHXep6EYjAKqNdXzXmSg7hvzISq/I=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibev%2Flibev.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>HkBWHznZ2Tetmyl3F00FaZk0iQkVOiAKNBsU0kFKYY4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibev%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>3poAHtQ+DwN3HNkPXdW/Saps9XYU0ZMN8z9ymMVyvpc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibevent%2Flibevent.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bSByfj+BBd99QA+rbp+g6I0kYt6w1I6d6gwF6kB6fGU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibevent%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lEV39wYhN8sITO3BEKnAi4D0XQ9VVdUNOdMuBUu8Q/o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibuv%2Flibuv.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>683r4B1lTvooq0+ZXUE7F0gTZapuyPnijBTw8mBp9Gc=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Flibuv%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kRcNoIyXSKps7Gvb97svib7RMEeNv+Dd+KFnDHGJeRM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Fpoll%2Fpoll.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>N8OOhzydX5lrQVdQEA3TQoAi3n5QNcKA/4DC3h21l0Q=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Fpoll%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AuTnYH1DcxW+b3b+251b4G2i0sFYQPyekZI70d7QPDQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fevent-libs%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uCEpgmnKjndlsEOCkauc3aqLYCkFro600gr8mkqJMJs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Flibwebsockets.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LI3E6vFJP8yHxnSbFJMZT24ZpjFu37vKS8X35rzEpAA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fbase64-decode.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>wnHnUNisOPL2C9Sia+vDxT/suGmTMSLE14WAl4byt2Q=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fdaemonize.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hwMoE1MuwT7QdDHgBlhRMHq5ouSxFPxLcr2kMhW3/6o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fgetifaddrs.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KwRGdAHAzQPFROLL55f/AihovbAxSKjRgdThc1N+n4E=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fgetifaddrs.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BCzBeaf4rzMEHQLqy+FkE+Y4FFBJys5mD7KkkEfVEU0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fjws%2Fjwk.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JgHnFUoCfslD3GwZsN66Qo+Pqjlew2Z+zSmuC91TIU4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fjws%2Fjws.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CBFMiPDNMZ6bJEhtxdAZH9FSUdL7mRkZz237sqCtsig=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Flejp.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZVk+Fhv6yyfdIEv8ydPqSetafdr5A3LYkOvCeRV/LIE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Flws-ring.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BzBBcfSph3ZOkIVs9dL2zujZsqQ1M7/Jj24gvWfSbhQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fpeer-limits.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>99NEg6crM3ao6mjZ0jV0w05q99lIJ7jgisVL3fbY9OM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fromfs.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oUNrnuiBYFP/4M4zZlCvfdGpeqzZf6l8KDTszczctB4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fromfs.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SrPe0eDeDKclnXb/FzEFHatbCxkAb6ADiQ22C9FIWSE=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fsha-1.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uHZQRkHkXWXSJWmAXlx97V6eUnPfmGFP9KWnEuFeEPI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fmisc%2Fsmtp.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QbkDF3NRLmeXlt0vVDl/dr/T6eO9MxYjjr6rA1MPCNU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fplat%2Flws-plat-esp32.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q3ju8WTrazkEkIFOzgHgQWsFjK5Q2VthLsaLOvaj/hk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fplat%2Flws-plat-optee.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>FQs3miHOkU+eOC6+st1gxU0wkHT9V6yd3BnJQyQ1G+g=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fplat%2Flws-plat-unix.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zJowXWeZ3ljjrhukhZ0pG4atRM1fXXGKEILq+V4Ll9M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Fplat%2Flws-plat-win.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qobGhoLsh+/Uis+deEN3mYSVP8oedMa0k11wLN8LYYw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ej/Bes67hd32sBqVrpwRA1sDJkHmUa5uAKo6irDzlSM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fcgi%2Fcgi-server.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WTvfqCsTYukOiTmFzYmY5nfI0gNcElHo1cWfJINBI4U=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fcgi%2Fops-cgi.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dSe/5oSNlElgXOHzILXGKpHRWSG6O7X/ys0+3ora8aY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fcgi%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>iHET++pPDHfL087lWENBT/LZ0a4yz2H0Yd78NWrFAj0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh1%2Fops-h1.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>qGopjY315IXAvUXGSir66WoUaADw7FRrKfdtR5UdN9M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh1%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Bs46n94ovAXwDb6IpRkI8ECvjp3xojIAdnUaNz1PHgs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fhpack.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>16hMQ28B+XrFYQcT98Iym7QqANNQc5IpH361NGsmYpg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fhttp2.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WsSPVueQqx8R5B+K9Tjy24YSSTOAKn7OFCmAfZ6e1oI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fhuftable.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/0dVdwglqKAPKgg61dDEStTTBmmEExLlPiKPU/deETI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fminihuf.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6ITJZJNMSP4kuZe8fxb7C0saCJ8twWIMO2pRvpRQ0uw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fops-h2.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>elUBh8QdF8FU60z/4nE/ydwjzrO6+DAQAILawr8w124=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fh2%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i7n/wYMHJWcoOoGmFNn6DEjK/XctghXCsZknb3eX5uI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fclient%2Fclient-handshake.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>P28ZZ+TGjgx8kpOW4F/BMX+Syg7+E6DinRO9TlWv5gk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fclient%2Fclient.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f1/nesH1q2mCForXLE+RXFD0Z8wTFMTdT03vmV82nLQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fheader.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yOCukYxaevlB1dT4nw5wAx1NkG37iw0fjpNDB90xqbQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Flextable-strings.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hYdKxoTzYhbiFaRIXjNIQlWZlwWM5aFYUnto73ytpgQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Flextable.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>j3WIDFNDNWFwNsBpGVOPi5tcHD2eSPDZkIzkvpBIfUs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fminilex.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZRJehM9yPIvPlfe72eHsqfLMG72UseG/8f1Az0PuhrI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>g836KegwSJg2r/vRo8pjegme3klkfIl/wSCJGY9pkEs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Faccess-log.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>XtL3peXajUGPCnbxSqDXctyYDiaJL4ra2l+YJFw1c0Y=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Ffops-zip.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Z+dTqJayJ9/uTcnJ0sXJKs20DVk7sLBbyqBn+zhK4Bw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Flejp-conf.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dDbJ/4DazqKyETCe9nW/LjoKG7HQswbO4bFEKaYqnLI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Flws-spa.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>loXiWw7lV9xX4LKFjNrkrpTl7SSeoP1QcatcLSHq1tk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Fparsers.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zfaKqow1gJ3AcwwsBhsFWvHNFBKJasmRMcNQjtSbDCU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Franges.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1ZDVBPEqSRfrYVS2NpwdKxvH+UZQI+BpFavBOMz83S4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Frewrite.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jvXWRtEwyKZErDL/wTqJIND+e/PIBkqZd/EBn9KHtsg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fhttp%2Fserver%2Fserver.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kSAD/yGLVNmmHo+ZAvId3m4N3+rH6OgiOHI6S02PNrU=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Flisten%2Fops-listen.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aTqDq7Emirc5hSBxStZEg/ndZN58sICAcbMBHPFVzxM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fpipe%2Fops-pipe.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R2p+ZHmdvkLNjdymQIxamV0/SASEPY8VwKg6oyCGVlw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jeTfh8c2ZZvbbc/ACeB9zCRTQ5lfwaBItRlSkUr4+Ls=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fraw-file%2Fops-raw-file.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gYdotE7VkHaLgjyyC4zrAeU9johUDZo6jBzu/C2CK2c=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fraw-skt%2Fops-raw-skt.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>E7gHok4ePo27WJ02yoeTjpIErAE/u6MZnPqyPBqcB3M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fclient-parser-ws.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>JwAqmRpYnGZy3CXKGHeBvF5gFW//nTcqxIMV4XVsu8o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fclient-ws.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2w4Ea8D1/muuAm8Mw+G1wp24uEIhvbGCbURnV0f/UVs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fext%2Fextension-permessage-deflate.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>chawejQ45hi3q3ufSpcIMjUoxxo/z5OCF/drLSuZhDI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fext%2Fextension-permessage-deflate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>yU95F7/CLdW4zOhhsUtnPKznAsPxIa+vaBX23XEkLq4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fext%2Fextension.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lczvBmtOk/t48y2tg5g3Mio7cXwnYERdli/R7rKkRl8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fops-ws.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5PlKrP6mNLSCAqC7a2U/lxhe2gv4YsESRhGCfrSIlDY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lCHH9JuIUaTElYb4/+WH+96hcn7+WXBUHcvXbu+zc7o=</DigestValue>
+</Reference>
+<Reference URI="lib%2Froles%2Fws%2Fserver-ws.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/bsVZhP4cZXMOeiCJvybYv+mg1Ue1uFvXKxqY4beqQM=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Flws-genhash.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kqzOhvKbqDKDgpM+sldTAgbGhqa5/dnwK1uXfOpZfK4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Flws-genrsa.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Hmn+WQ9qgi2ANTRJPw4w9CxaGHmFrin7rL9G8BnCVbQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fmbedtls-client.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LwhKIWUrxz3hIYQidaoUTsAT/s7Sm/r3JH/MsCqDX8k=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fmbedtls-server.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eo7+SVJyZuBCj03zvmqlMS6UjK2nBnrQZCR9zpzMp2w=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fssl.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SqkrwNBWo0Ae8Cv0d3X0iic4FTrW2YUIX+Sru14MLbA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl3.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>f/QSL/GUD3Ypq7311G0ygaW8G2ThKTbGz22YL70jlM4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_cert.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>AfSKyTzpHWCqqWq+g+OULN4Tfhz2maV8En/Tyi9GbjA=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_code.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kr/DlsSCHCx/3QBL0zBkM6Uo/8t8k3nI/mJ2sqYDhGI=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_dbg.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cpClCvOvZVGxEKGc7h8mDJ9PDu/QhYW7a/o+Q0ZNF3M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_lib.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PrFRwHjdj27lf7QFvhh9JFvJ2lLnH4H0djS+l2art/0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_methods.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>t+sJhdh+Ie/5uFDc6JoGhQCjJexWkhE+cTVqwew83HY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_pkey.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vEUk9geU/dmR6LVio/UPK662rpWrXs8YiKWPGiHwepQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_stack.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>T4bjQ5EO2uZOaoh2LQAKcnKz85stIsGncHC/POetFiY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_types.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WUPB+yNlYwcwKnBWJk9/CBHplrDX+zOV+x4u0jGFZfw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fssl_x509.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>gxohJNYWQVBsM6JOlKV+2Ztnv/d2ivu+f2WwAr7Zepo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Ftls1.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fQKWtBdqf5EdvcaZX5DTXeUX/GnbPtHo8a9I86EESC0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Finternal%2Fx509_vfy.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eNihb0705sJTopgjR61Otjp2ZH7mpXBIeNN2QReBq1M=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Fopenssl%2Fssl.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>mxTW6uQbP7YtSqvHq8uvFsWCOsWQTMiOMgO1y8CUJtg=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Fplatform%2Fssl_pm.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>dj4dTrjI/gsxTkTJIfsQ/MAz64AYFoxRr7FFteCVO+c=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Finclude%2Fplatform%2Fssl_port.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>rK7NDFUud+3TuJaZZoh2s5tl5Azpj06ehIkoQXoWcs0=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_cert.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>LjOG7bfUs6nDYyPJ/7cczRTYiXOsrEJwUdvdrXv7E0c=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_lib.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zLxxtHY5MxwDfpaLDiyInhDavHigYE0mqOWaA740TMs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_methods.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>bicHnpW12D5MrZajDOa4QybQlfCS3k4dQF/U9OuroPY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_pkey.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CHuL7T8nIwaQVxCGnnpr1suF+8kkbIfXwAc4K4BkQvY=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_stack.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>i+rObGAvkLwZA5b7NmtVsoa4TO32FffP8xmvFVsyCFk=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Flibrary%2Fssl_x509.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Ebpt1KKz9tQr0VYx5n/eC3IakJltS6XAB9tPXTt+S3Y=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Fplatform%2Fssl_pm.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VEpnSp4gyhg1aGEhvr3R3mCIISaN3w65Kts6b2DRuO4=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fmbedtls%2Fwrapper%2Fplatform%2Fssl_port.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6vIo1zPPkL4EFMzrqYtn1Hu7KjDTFf4di2BvL5sBUPo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fopenssl%2Flws-genhash.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DRGSO/UFkF4+vn2GAnVQoukOr0hzXSzRXrUFbripSWQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fopenssl%2Flws-genrsa.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kBuLb7wyx7JamSAkFjK05aZvSfB3IUpnXED73fZotiw=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fopenssl%2Fopenssl-client.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>y6DPky3dm6iIz49Bd12dqEoztFxF6Nd5Es3ddvByyCQ=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fopenssl%2Fopenssl-server.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>0lGlEZrVA/MnRBx/9DnO1jXlKOvbRUJ1LDZVpt3Ptoo=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fopenssl%2Fssl.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/sN9xJO9YNos7eNhnoEUqWcoyKUWEk5KFVpDlQq3N0U=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Fprivate.h">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MhKm927jIweLzQLxHs0M9bkAxFv4d6A0/MSsye18fec=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Ftls-client.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>/YLVDl+/KMK1pS41oqIcHnX9ucVb62li34xPO24pSp8=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Ftls-server.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zyzsDmvziSV+WZjW8uV2E1e0hTKE5RcYXeicqhg3REs=</DigestValue>
+</Reference>
+<Reference URI="lib%2Ftls%2Ftls.c">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PKeAWa0m8bGk7KBC7TMxUkD2gzYj+JePKN35hHKJ65o=</DigestValue>
+</Reference>
+<Reference URI="res%2Fedje%2Fsetting.edj">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>H39tzNFzj1vLeB3kL9HuyjMOStQnX5pX1zatt3s312c=</DigestValue>
+</Reference>
+<Reference URI="shared%2Fres%2Fsettingsui.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="tizen-manifest.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SN+zgQxxvxK8Vn+fd0GFRhf7cRN52kReQtsArYGynF0=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lpo8tUDs054eLlBQXiDPVDVKfw30ZZdtkRs1jd7H5K8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+QgRiSPQX9zMNjlOqj2CeTbPU44+SOG2AyQ4EWKRzUTGtwvjggnZFJR7FADHAjUvLBkiN21kM8Bac
+w448O331DUILUgNTu1UkgaeZgCB6OSgs8VqMIKVLnFw5W8QymaUATiuxeOg+8/w160NPSuRBf0gU
+Wr46w2+t31GTPfUqndJfUYWEL/bKQ0AXPwHlrWrMDaFQkY9NC/68hlS2WXdUs3/q6tXqZ44Zhih2
+iEE6iToyWsoGJJVm1RggP13diCsJ16fzD1bZul60oZPumSPNo2ZYZCNn/rRBOWQJsSFyqGKet623
+U2yb2EhsLFMvEW4mjJf4DAXrcdrjxS0EdxhtXw==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDmzCCAoOgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBsDELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEgMB4GA1UEAwwXU2Ftc3VuZyBBdXRob3IgQ0Eg
+Q2xhc3MxIDAeBgkqhkiG9w0BCQEWEXRpemVuQHNhbXN1bmcuY29tMB4XDTE4MDUyNjE5MTAyN1oX
+DTE5MDUyNjE5MTAyN1owVTEJMAcGA1UEBhMAMQkwBwYDVQQIEwAxCTAHBgNVBAcTADEJMAcGA1UE
+ChMAMQkwBwYDVQQLEwAxHDAaBgNVBAMTE0ZyYW50Y2lzYyBVbmd1cmVhbnUwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCrI515vKzsfFA5wHaNoVVcgfM73eSuPxDeMFVdf9nyIysLHLpG
+Os9LbfyQUwRcGpaDQS+tPtpG7UPbmPk1zeeI7XSghf+0UaDb50Uk2sKSAw0dTGW8WV3YcgTKJO7e
+VGNn9XNWfbgJaxuvHNBaFqJb0uZEs8JpSqnDYJfMoybtMGBHV8ZcPnxirR0Rxhk7tl28gnqsunFj
+smpZcf/AjJrEtriIWfhzamdsnHfKwhScSRhxuaUCklKku6/U5yYQ+c8b8kOYU5QL5614PlIUOJFC
+tw/hYNIRz64/CDKwQW3uIKc981jA6LQ6n5VS5Yajag8kVwfGsscFR4e9tLn7MHSLAgMBAAGjGjAY
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQAlAebwqrRqTsfztQGf
+2fyf8GRTQ8JLlT/Tz3EaurdEs61Ig5eFUQjYgDr9oZxFKr4s06udv/57K7rEKuUaKZS3EcBcaBDt
+zcy3iYaif4S9RiwBCnIkkbvVUGPopQUrIpzc6pK5Gj4qRcXAPwNQI+i9eVJ+cbZjNOQsYhTvegE3
+WhZR4JoFUkxcdmRBBxqpLRaL1l7esBKV5OdelNxzIPasysemNrKwulDmAgLzDmXTQhXRGGrdFj8/
+ZipXf70PakXLFBnmMk8b3QLKP5ZLms/D+BGaOlNhu8TF225TJYXLaVgQwiR3TNOHdYr1ZOm0SoFb
+77b2Ww2nPmkX9Q1TmfOS
+</X509Certificate>
+<X509Certificate>
+MIIDmzCCAoOgAwIBAgICYygwDQYJKoZIhvcNAQELBQAwXjEaMBgGA1UECgwRVGl6ZW4gQXNzb2Np
+YXRpb24xGjAYBgNVBAsMEVRpemVuIEFzc29jaWF0aW9uMSQwIgYDVQQDDBtUaXplbiBEZXZlbG9w
+ZXJzIFJvb3QgQ2xhc3MwHhcNMTMxMjMwMTUwNTU4WhcNMjgxMjI2MTUwNTU4WjCBsDELMAkGA1UE
+BhMCS1IxFDASBgNVBAgMC1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ft
+c3VuZyBFbGVjdHJvbmljcyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEgMB4GA1UEAwwXU2Ft
+c3VuZyBBdXRob3IgQ0EgQ2xhc3MxIDAeBgkqhkiG9w0BCQEWEXRpemVuQHNhbXN1bmcuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+tRBgnKJs8j7BFg8/UftqbqTCYBV3Jrg1vK
+YvEuoTfntYz2uT2SO67raiCsZBAYvJnP54ExkdV++UgB7BDGniWz7bA1pYKak5kNK5jtLQt2DmZX
+3qgaLjMyoAz+293CxrBQO4h8NaTQGsO/WLpeQq2Y1ZEnHsq+EUn90H6Vm0HNW+KUayGPYdey+QSW
+iiv+L++TSuHrw0b16GYn83emiTnKTCmwpSOZ712Gy9kccl46/K4C8skEDVZjTk9s7r/MN9ZNZsqR
+brT/3AYcrF4ao8ipwlHK91WJBXXaiQICvp/dNfCSDWpTWy7z4XmgP16pSLnfgZlwEwWfiaavHRNM
+mwIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB/ZlNMTzlIHqC3mFSq
+ptuQDZG96XnYqiWsbYkqGgNhcq6c/B3TQsg7Z8cxXY/eqJQDN5gbrIpiUugMRdSOpAEcxF3lwd5k
+oOzVLn+3I7x1k6Q4pZdi1fJx+1XjCtrQgPqtvwM77urNqIA1MSG6HUPxYAKkRKjWPsg346E8S/c1
+Hq4UVBYEFcDC467uvWtYjxjEVQTmNUaUcQLU9P6VEL4QW+t7V54IN6IJDr9HoOGSgApxIBDDU46b
+MUwl+yK0GPvhrviwfVPkfmys1hn5N+gWectQVpBB1gbfy2KlLCCvW/Kl1VmtYz1kWwTyG8bwcjE0
+GLkwKNN5lPod+FmMhuW9
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#AuthorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#AuthorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#AuthorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>
